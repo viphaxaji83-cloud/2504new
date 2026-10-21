@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>ФГБОУ ВО "МГТУ"| День открытых дверей</title>
+        <meta name="viewport" content="width=device-width, initial-scale=0.9">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href='http://fonts.googleapis.com/css?family=Montserrat%7CInconsolata:400,700%7CPathway+Gothic+One' rel='stylesheet' type='text/css'>  
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" type='text/css'>
+		
+		
+		<script src="//code-ya.jivosite.com/widget/ETwZdSyJO4" async></script>
+		<meta name="yandex-verification" content="de8135ad0ec8b0a1" />
+		<!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+           m[i].l=1*new Date();
+           for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+           k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+           (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+           ym(48238847, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+           });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/48238847" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(62173777, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/62173777" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+    </head>
+    <body>
+
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel">Ответы на вопросы поступающих</h4>
+						</div>
+						<div class="modal-body text-center">
+							<object><embed src="https://old.mkgtu.ru/upload/files/chasto_zadavaemye_voprosy%281%29.pdf" width="700" height="500" /></object>
+							
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>				
+						</div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel1">Презентация факультетов</h4>
+						</div>
+						<div class="modal-body text-center">
+							<object><embed src="/upload/2023pre.pdf" width="700" height="500" /></object>
+							
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>				
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModal3">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel1">Заказать мероприятие</h4>
+						</div>
+						<div class="modal-body text-center">
+							Оставьте заявку по<a style="color: green;" href="https://docs.google.com/forms/d/e/1FAIpQLSeoREOlsjIbqnws6v0kcOfddt84N1BRQUa0BSmebt4QFZWaQg/viewform"><b>  ссылке</b></a>
+							<p>Заявка на участие в программе МГТУ  "День открытых дверей +"</p>
+							<p>Любой школьный учитель, классный руководитель с согласия администрации своего образовательного учреждения может заказать для своего класса (параллели) подходящее по форме мероприятие от любого факультета МГТУ.</p>
+						
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>				
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModal4">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel4">Памятка абитуриента</h4>
+						</div>
+						<div class="modal-body text-center">
+                            <p>Памятки абитуриента, для поступающих:</p>
+                            <ul>
+                                <li><a href="/upload/pam_abit_2026.pdf" class="btn btn-success btn-lg">для обучения на программы бакалавриата и специалитета;</a></li>
+                                <li><a href="/upload/pam_abit_2026_kolledg.pdf" class="btn btn-warning btn-lg">в политехнический колледж для обучения по программам СПО;</a></li>
+                                <li><a href="/upload/pam_abit_2026_magistr.pdf" class="btn btn-danger btn-lg">для обучения по программам магистратуры.</a></li>
+                            </ul>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+        <div class="nav-container">
+
+            <a id="top"></a>
+            <nav class="pb16 pb-xs-0">
+                <div class="nav-utility bg-primary1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-2  text-center-xs">
+                            </div>
+                            <div class="col-sm-8 text-center">
+                                   <a href="https://mkgtu.ru/"><img src="/img/logo_1-2.png" style="width: 47%;"></a>
+                            </div>
+                            <div class="col-sm-2 text-right text-center-xs">
+                                
+                            </div>
+                        </div>
+                        <!--end of row-->
+                    </div>
+                    <!--end of container-->
+                </div>
+                <div class="pt120 pb80 pt-xs-40 pb-xs-16">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+								<h1 class="head_text" >День открытых дверей<br>
+								</h1>	
+								<br />
+                                                                        
+                                							        <hr />                    								
+                            </div>
+								
+							<div class="col-sm-12 text-center">
+							<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal5">
+								<a href="https://forms.yandex.ru/u/69ef26a7e010db001b9370cb" target="blank">Принять участие</a>
+							</button>
+							<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal5">
+                                								<a href="https://forms.yandex.ru/u/68e4eaf6e010db446163a2fd" target="blank">Групповое участие</a>
+							</button>
+							
+							<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+								Ответы на вопросы поступающих
+							</button>
+	
+							<!--button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal2">
+								Презентация факультетов
+							</button-->
+
+							<br />
+							<br />
+							
+							<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal4">
+								Памятка абитуриента
+							</button>
+
+							<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal3">
+								Заказать мероприятие
+							</button>
+                        </div>
+                        </div>
+                        <!--end of row-->
+					</div>					
+                    <!--end of container-->
+                </div>
+                <div class="module widget-handle mobile-toggle text-center visible-xs">
+                    <i class="ti-menu"></i>
+                </div>
+            </nav>
+        </div>
+				<div class="nav-bar text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <ul class="menu inline-block mb-xs-16">
+                                    <li>
+                                        <a href="#about"  class="inner-link">Об университете</a>
+                                    </li>
+                                    <li>
+                                        <a href="#menu"  class="inner-link">Программы обучения</a>
+                                    </li>
+									<li>
+                                        <a href="https://mkgtu.ru/postuplenie/podgotovitelnye-kursy/kursy-dlya-vypusknikov-spo/index.php" class="inner-link">Выпускникам СПО</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact" class="inner-link">Контакты</a>
+                                    </li> 
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end of row-->
+                    </div>
+                    <!--end of container-->
+                </div>
+        <div class="main-container">
+            <section class="pb0 pt0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <div class="image-slider slider-arrow-controls mb0">
+                                <ul class="slides">
+                                    <li>
+                                        <!--img alt="Pic" src="img/1.jpg" /-->
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <a id="about"></a>
+            <section class="pb0">
+                <div class="container-fluid">
+                    <div class="row  mb64 mb-xs-40">
+                        <div class="col-sm-12 text-center">
+                            
+                                <h3><b>ОБ УНИВЕРСИТЕТЕ</b></h3>
+                           
+                        </div>
+                    </div> 
+					<div class="col-sm-12 text-center">	
+						<div class="row">
+						<h4><b>Майкопский государственный технологический университет – это</b></h4>
+						<br />
+						<br />
+
+							<div class="col-md-2 p0">
+								<ul class="ZLI">									
+									<li><p><b class="color">Всего 4388</b> место для приёма в 2026 году из них:<br />бюджетных мест - 1679<br />коммерческих мест - 2709</p></li>
+									<li><p><b class="color">Более 13</b> тысяч обучающихся</p></li>
+									<li><p><b class="color">Более 30</b> тысяч выпускников</p></li>
+									<li><p><b class="color">12</b> факультетов</p></li>
+								</ul>
+							</div>
+							<div class="col-md-2 p0">
+								<ul class="ZLI">
+									<li><p><b class="color">Медицинский институт</b></p></li>
+									<li><p><b class="color">Филиал</b> в поселке Яблоновском </p></li>
+									<li><p><b class="color">Политехнический колледж</b> в г.Майкопе</p></li>
+									<li><p><b class="color">Научная библиотека</b> МГТУ</p></li>								
+									<li><p><b class="color">Военный учебный центр</b> при МГТУ</p></li>
+									<li><p><b class="color">НИИ</b> сельского хозяйства</p></li>
+								</ul>
+							</div>
+							<div class="col-md-4 p0"><img style="width:50%;" alt="Logo" class="logo1" src="img/logo2.png" /></div>
+							<div class="col-md-2 p0">
+								<ul class="ZLI">
+									<li><p><b class="color">138</b> реализуемых основных образовательных программ</p></li>
+									<li><p><b class="color">17</b> учебных корпусов</p></li>
+									<li><p><b class="color">180</b> учебно-научных лабораторий</p></li>
+									<li><p><b class="color">5</b> научно-образовательных центров</p></li>
+									
+								</ul>
+							</div>
+							<div class="col-md-2 p0">
+								<ul class="ZLI">
+									<li><p><b class="color">3</b> общежития в городе Майкопе</p></li>																					
+									<li><p><b class="color">Автошкола</b>, станция техобсуживания и ремонта автомобилей</p></li>
+									<li><p><b class="color">5</b> спортивных площадок</p></li>																					
+									<li><p><b class="color">1</b> здание спорткомплекса</p></li>
+									<li><p><b class="color">2</b> спортивных зала</p></li>
+									<li><p><b class="color">4</b> тренажерных зала ЛФК</p></li>																					
+								</ul>                             
+
+							</div>
+						</div>
+					</div>
+					
+					<hr />
+					<div class="col-sm-12 text-center">	
+						<div class="row">						
+							<div class="col-md-3 p0">
+								<ul class="ZLI">
+									<li><p><b class="color">4 уровня</b> профессионального образования:</p></li>
+									<li><p>• среднее профессиональное образование</p></li>
+									<li><p>• высшее образование - бакалавриат</p></li>
+									<li><p>• высшее образование - специалитет, магистратура</p></li>
+									<li><p>• высшее образование - подготовка кадров высшей квалификации – ординатура, аспирантура</p></li>
+								</ul>
+							</div>
+							<div class="col-md-3 p0">
+								<ul class="ZLI">
+									
+									<li><p><b class="color">84%</b> преподавателей с учёным степенями и званиями, более 30 визит-профессоров. Для чтения лекций приглашаются ведущие зарубежные учёные</p></li>
+									<li><p><b class="color">Более 70%</b> студентов учавствуют в выполнении НИОКР в научных центрах и лабораториях вуза</p></li>	
+									<li><p><b class="color">Более 150</b> программ дополнительного образования: ведущие программы IT-индустрии, фотостудия, авто- и мотошкола, иностранные языки</p></li>
+								</ul>
+							</div>
+							<div class="col-md-3 p0">
+								<ul class="ZLI">
+									<li><p><b class="color">Более 60</b> млн. руб. ежегодных вложений в обновление материально- технической базы университета и открытие новых лабораторий</p></li>
+									<li><p><b class="color">Более 3000</b> студентов, получающих социальную поддержку и материальную помощь ежегодно</p></li>
+									<li><p><b class="color">16</b> видов стипендий</p></li>																							
+									<li><p><b class="color">14</b> студенческих объединений</p></li>																							
+								</ul>
+							</div>
+							<div class="col-md-3 p0">
+								<ul class="ZLI">
+									<li><p><b class="color">Более 200</b> работодателей</p></li>
+									<li><p><b class="color">Более 50</b> стратегических предприятий-партнёров, включая ГК "Росатом"</p></li>
+									<li><p><b class="color">Иностранные студенты</b> из 40 стран мира</p></li>
+									<li><p><b class="color">51 и более</b> стран, с которыми реализуются программы по обмену</p></li>
+									<li><p><b class="color">27</b> зарубежных вузов-партнёров</p></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+                </div>
+                <!--end of container-->
+            </section>
+			<a id="special"></a>
+            <!--section class="pb0">
+                <div class="container">
+                    <div class="row  mb64 mb-xs-40">
+						<div class="col-sm-12 text-center">
+                            
+                                <h4><b>ПРОГРАММА МЕРОПРИЯТИЯ</b></h4>
+                           
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 col-md-offset-3 col-sm-8 col-sm-offset-2">                           
+                            <p class="mb0">
+								<ul>
+									<li><b>11:00 - 11:15</b> —Приветственное слово ректора</li>
+									<li><b>11:15 - 11:20</b> —Презентация университета</li>
+									<li><b>11:20 - 11:40</b> —Информация о правилах приема и зачисления в университет</li>
+									<li><b>11:40 - 11:50</b> —Внеучебная студенческая жизнь</li>
+									<li><b>11:50 - 12:00</b> —Международное сотрудничество и академическая мобильность </li>
+									<li><b>12:10 - 12:30</b> —Об удобстве поиска на сайте необходимой абитуриентам информации</li>
+									<li><b>12:30 - 13:30</b> —Информация о факультетах и реализуемых направлениях подготовки, специальностях</li>
+																	
+								</ul>			
+								<span class="block">Подключайтесь к онлайн-трансляции 25 апреля  в 11:00!<br />
+									Вас ждёт много полезной и актуальной информации по ссылке <a href="https://youtu.be/WVGnlMJtVqc" style="color: black;"><b> https://youtu.be/WVGnlMJtVqc</b></a></p></span>
+							</p>	
+                        </div>
+                    </div>
+                </div>
+            </section--> 
+            <a id="menu"></a>
+			<br />
+            <section class="pb0">
+                <div class="container">
+                    <div class="row  mb64 mb-xs-40">
+                        <div class="col-sm-12 text-center">
+                            <h3><b>ПРОГРАММЫ ОБУЧЕНИЯ</b></h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class=" col-sm-12">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" style="background: #a5a5a5;">
+                                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Бакалавриат</a>
+                                </li>
+                                <li class="nav-item" style="background: #a5a5a5;">
+                                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Специалитет</a>
+                                </li>
+                                <li class="nav-item" style="background: #a5a5a5;">
+                                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Магистратура</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" style="padding: 20px;">
+                                    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_60feede6780cbf2562c4edd270820823" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Факультет аграрных технологий</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_60feede6780cbf2562c4edd270820823" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#himiya">Химия</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#ht">Химическая технология</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#tpo">Технология продукции и организация общественного питания</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#zk">Землеустройство и кадастры</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#agro">Агрономия</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#tppsp">Технология производства и переработки сельскохозяйственной продукции</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#zoo">Зоотехния</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_ce983db473428485eabcc4625a977555" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Технологический факультет</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_ce983db473428485eabcc4625a977555" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#str">Строительство</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#tmo">Технологические машины и оборудование</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#ppr">Продукты питания из растительного сырья</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#tilp">Технология изделий легкой промышленности</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#agroinj">Агроинженерия</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#standimetrolog">Стандартизация и метрология</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#eco_tovaroved">Товароведение</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_917356c8e9b09f9c9f7323cbc55ec332" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Факультет информационных систем в экономике и юриспруденции</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_917356c8e9b09f9c9f7323cbc55ec332" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#pi">Прикладная информатика</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#ib">Информационная безопасность</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#ur">Юриспруденция</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_c91caf2f2437848879af7e3171b027dc" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Инженерный факультет</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_c91caf2f2437848879af7e3171b027dc" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#elel">Электроэнергетика и электротехника</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#nd">Нефтегазовое дело</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#ttproc">Технология транспортных процессов</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#ettmk">Эксплуатация транспортно-технологических машин и комплексов</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_43b0098a21f951cf5c87287e1ff4fd30" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Экологический факультет</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_43b0098a21f951cf5c87287e1ff4fd30" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#techbez">Техносферная безопасность</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#lesdel">Лесное дело</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#landarch">Ландшафтная архитектура</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_a4ffbb1cf17029fa8b39e8e546a4ecee" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Факультет экономики и управления</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_a4ffbb1cf17029fa8b39e8e546a4ecee" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#rso">Реклама и связи с общественностью</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#ser">Сервис</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#tur">Туризм</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#gost">Гостиничное дело</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#innov">Инноватика</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#eco_eco">Экономика</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#eco_men">Менеджмент</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#eco_gosmunupr">Государственное и муниципальное управление</button></div>
+        </div></div>                                </div>
+                                <div class="tab-pane" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" style="padding: 20px;">
+                                    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_7b43839b8a88bcb039450b692984b4c1" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Факультет информационных систем в экономике и юриспруденции</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_7b43839b8a88bcb039450b692984b4c1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#speciasb">Информационно-аналитические системы безопасности</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_1e76d9c51a93c6db61a8e5ea10ca61d8" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Экологический факультет</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_1e76d9c51a93c6db61a8e5ea10ca61d8" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#specpb">Пожарная безопасность</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_60949229313e971ee64c0decd7808d1a" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Технологический факультет</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_60949229313e971ee64c0decd7808d1a" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#spectd">Таможенное дело</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_9fa55ef41f1a5156d771ed12454fcfe4" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Лечебный факультет</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_9fa55ef41f1a5156d771ed12454fcfe4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#specld">Лечебное дело</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#specmedkib">Медицинская кибернетика</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_ec500680c323caa2b318490e2b8a51c8" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Педиатрический факультет</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_ec500680c323caa2b318490e2b8a51c8" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#specped">Педиатрия</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_3888344a58c2eb1a2d3233de34dfad9f" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Стоматологический факультет</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_3888344a58c2eb1a2d3233de34dfad9f" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#specst">Стоматология</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_dbbc7bdd8a057996723efdfde99c4984" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Фармацевтический факультет</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_dbbc7bdd8a057996723efdfde99c4984" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#specfarm">Фармация</button></div>
+        </div></div>                                </div>
+                                <div class="tab-pane" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" style="padding: 20px;">
+                                    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_26bce33bf9849c9507c01c679dfea9fa" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Технологический факультет</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_26bce33bf9849c9507c01c679dfea9fa" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magstr">Строительство</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magtd">Товароведение</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magtmo">Технологические машины и оборудование</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magpps">Продукты питания из растительного сырья</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_12425accbe23c3052c9f2d7ddce24684" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Факультет информационных систем в экономике и юриспруденции</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_12425accbe23c3052c9f2d7ddce24684" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magpi">Прикладная информатика</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magur">Юриспруденция</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_3ff469ae44817d26c2a0dcf5bdfa6a7f" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Факультет экономики и управления</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_3ff469ae44817d26c2a0dcf5bdfa6a7f" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#mageco">Экономика</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magmgn">Менеджмент</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#maggmy">Государственное и муниципальное управление</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magfik">Финансы и кредит</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#maggostdel">Гостиничное дело</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_6aaf50a6e227a6e9029b653067a767c1" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Факультет аграрных технологий</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_6aaf50a6e227a6e9029b653067a767c1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magagro">Агрономия</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magzemkad">Землеустройство и кадастры</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magtpo">Технология продукции и организация общественного питания</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_db1b3e24f6f1a375ba19aefb36c311e3" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Инженерный факультет</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_db1b3e24f6f1a375ba19aefb36c311e3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magttp">Технология транспортных процессов</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magnd">Нефтегазовое дело</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magemk">Эксплуатация транспортно-технологических машин и комплексов</button></div>
+        </div>
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_f180a6321bfb2123d0bb415507d0cb21" aria-expanded="true" aria-controls="collapse1">
+                    <h4><b>Экологический факультет</b></h4>
+                </a>
+            </h4>
+        </div>        
+        <div id="collapse_f180a6321bfb2123d0bb415507d0cb21" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body" style="overflow: auto;"><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magland">Ландшафтная архитектура</button><button type="button" class="btn btn-default btn-lg show_modal" data-toggle="modal" data-target="#magtechbez">Техносферная безопасность</button></div>
+        </div></div>                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+			<section>
+				<div class="container">
+					<div class="row  mb64 mb-xs-40">
+						<div class="col-sm-12 text-center">
+							<h4><b>Выбирай! Решай! Действуй!</b></h4>
+						</div>
+						<div class="col-sm-12 text-center">
+							<img src="/img/footer.jpg" style="width: 70%;">
+						</div>
+					</div>
+				</div>
+			</section>
+			<a id="contact"></a>
+			<section class="pb0">			
+            <footer class="bg-primary pt120 pb120 pt-xs-40 pb-xs-64">			
+                <div class="container">
+                    <div class="row">
+						<div class="col-sm-12 text-center">         
+							<!--h4><b>КОНТАКТЫ</b></h4-->
+						</div>
+                        <div class="col-sm-12 text-center">                          
+                            <div class="inline-block display-block-xs text-center-xs">
+                                <h6 class="uppercase">© 2022 ФГБОУ ВО "МГТУ"</h6>								
+							</div>
+                         </div>
+                   
+                        <div class="col-sm-12 text-center">
+						
+																			
+										<p>Телефон приёмной комиссии:<br /> 
+										8(8772) 52-30-08<p/>
+										<p>E-mail:<br /> 
+										priemkom@mkgtu.ru<p/>
+										
+																			
+                        </div>
+						
+
+						
+						
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </footer>
+			</section>
+        </div>
+			<div class="modal fade" id="show_modal" tabindex="-1" role="dialog" aria-labelledby="myhimiya">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title" id="show_modal_title"></h4>
+						</div>
+						<div class="modal-body" id="show_modal_body">
+                            
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">закрыть</button>										
+						</div>
+					</div>
+				</div>
+			</div>		
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/flexslider.min.js"></script>
+        <script src="js/twitterfetcher.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/parallax.min.js"></script>
+        <script src="js/scripts.js"></script>
+            <link rel="stylesheet" href="/js/owlcarousel/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="/js/owlcarousel/css/owl.theme.default.min.css">
+            <script src="/js/owlcarousel/js/owl.carousel.js"></script>
+<script>$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        autoplay:true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{ items:1, nav:true, loop:true  },
+            600:{ items:2, nav:true, loop:true  },
+            1000:{ items:3, nav:true, loop:true }
+        }
+    });
+	$(".show_modal").click(function(){
+		var id = $(this).data('target');
+		$.ajax({type:"POST",cache:false,url:"/index.php",dataType:'json',data:'ajdes=show_modal&id='+id,success: function(data) {
+			$("#show_modal_title").html(data.title);
+            if(data.title==''){
+                $('.modal-header').hide();
+
+            }else{
+                $('.modal-header').show();
+            }
+			$("#show_modal_body").html(data.body);
+			$('#show_modal').modal('show');
+		}});
+		return false;
+	});
+});
+</script>
+
+	
+</body></html>							
+													

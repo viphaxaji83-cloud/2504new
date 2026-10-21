@@ -1,0 +1,1 @@
+{"name":"mgtu-open-day-concept","private":true,"version":"1.0.0","scripts":{"dev":"node serve.mjs","check":"node --check dist/app.js && node --check dist/admin.js && node --check dist/content.js"}}
