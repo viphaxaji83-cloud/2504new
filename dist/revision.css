@@ -1,0 +1,92 @@
+/* Review: compact discovery, complete cards, structured admissions. */
+.hero{padding-bottom:86px;overflow:hidden;min-height:740px}
+.hero-art{height:540px;min-height:540px;align-self:center}
+.hero-art .photo-main{top:25px;height:395px;width:78%;right:3%}
+.hero-art .photo-mini{top:auto;bottom:12px;width:47%;left:0}
+.hero-art .spark-one{top:auto;bottom:4px;right:0}
+.hero-art .art-coordinate{bottom:18px;right:0}
+.discover{display:block;padding-top:90px;padding-bottom:90px}
+.discover-intro{display:flex;justify-content:space-between;align-items:flex-end;gap:35px;margin-bottom:34px}
+.discover-intro h2{font-size:clamp(36px,4vw,60px);line-height:1.08;letter-spacing:-.055em;margin:0 0 18px}
+.discover-intro p{max-width:480px;color:var(--muted);line-height:1.65;font-size:15px}
+.discover-intro>.button{flex-shrink:0;margin-bottom:8px}
+.discovery-grid{display:grid;grid-template-columns:1.25fr 1fr .9fr;grid-template-rows:280px 205px;gap:20px}
+.discovery-grid article{border-radius:22px;overflow:hidden;position:relative}
+.discovery-grid article>span,.discovery-photo span,.discovery-questions span{font-size:10px;font-weight:700;letter-spacing:.12em}
+.discovery-grid h3{font-size:26px;line-height:1.16;letter-spacing:-.04em;margin:14px 0 10px}
+.discovery-grid p{font-size:13px;line-height:1.6;max-width:330px}
+.discovery-people{grid-row:span 2}
+.discovery-photo>img{width:100%;height:100%;object-fit:cover;transition:transform .8s}
+.discovery-photo:hover>img{transform:scale(1.045)}
+.discovery-photo:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,rgba(5,24,45,.9),transparent 85%)}
+.discovery-photo>div{position:absolute;bottom:28px;left:28px;right:26px;color:#fff;z-index:1}
+.discovery-photo p{color:#e5edf9}
+.discovery-choice{background:#e9d8fd;padding:30px;display:flex;flex-direction:column;align-items:flex-start}
+.discovery-choice .discovery-mark{position:absolute;right:22px;top:20px;font-size:54px;color:#3b2f8f;font-weight:400}
+.discovery-choice h3{margin-top:25px}
+.discovery-choice p{max-width:230px}
+.discovery-button{margin-top:auto;background:#fff;border:1px solid rgba(59,47,143,.15);font-size:11px;padding:13px 18px;min-height:42px}
+.discovery-practice{grid-column:3;grid-row:1}
+.discovery-practice h3{font-size:23px}
+.discovery-questions{grid-column:2/4;background:#e0eaf6;padding:28px;display:flex;align-items:center;gap:24px;justify-content:space-between}
+.discovery-questions h3{font-size:24px;margin:12px 0 8px}
+.discovery-questions .button{font-size:11px;flex-shrink:0;padding:15px 19px}
+.guide-file{width:66px!important;height:76px!important;display:grid!important;place-items:center;flex:0 0 66px!important;border-radius:16px;background:rgba(255,255,255,.65);box-shadow:0 6px 18px #0b2a4a0b}
+.guide-file svg{width:34px!important;height:43px!important;flex-shrink:0;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;overflow:visible}
+.guide-card-top{align-items:flex-start!important;min-height:90px}
+.faq-all-button{margin-top:28px;background:#edf2fa;border:1px solid #bbcce0;color:#0b2a4a;font-size:12px;padding:17px 24px;box-shadow:0 3px 0 #dbe5f1;transition:background .2s,transform .2s,box-shadow .2s}
+.faq-all-button:hover{background:#dfeaff;transform:translateY(-2px);box-shadow:0 5px 0 #cddcf2}
+.final-cta{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:45px;padding-top:85px;padding-bottom:85px;overflow:hidden;min-height:590px}
+.final-copy{z-index:2;position:relative}
+.final-copy h2{font-size:clamp(60px,7.6vw,116px);margin-bottom:38px}
+.final-photos{position:relative;height:420px;max-width:540px;width:100%;justify-self:end}
+.final-photo{margin:0;position:absolute;background:#f7f7f7;padding:9px 9px 0;border-radius:8px;box-shadow:0 20px 50px #03101d66;overflow:hidden;width:57%;animation:photo-drift 8s ease-in-out infinite;will-change:transform}
+.final-photo img{height:174px;width:100%;object-fit:cover;border-radius:3px;display:block}
+.final-photo figcaption{height:39px;display:flex;align-items:center;font-size:11px;color:#0b2a4a;font-weight:600;padding:0 5px}
+.final-photo-one{left:2%;top:7px;--rotation:-12deg;transform:rotate(-12deg)}
+.final-photo-two{right:0;top:90px;--rotation:10deg;transform:rotate(10deg);animation-delay:-3s}
+.final-photo-three{left:14%;top:208px;--rotation:-5deg;transform:rotate(-5deg);animation-delay:-5s}
+.final-photo-three img{height:150px}
+.final-spark{position:absolute;right:13%;top:-35px;color:#a7c7ff;font-size:95px;animation:spin 32s linear infinite}
+.final-orbit{position:absolute;inset:0;border:1px solid #a7c7ff38;border-radius:50%;transform:rotate(-25deg)}
+@keyframes photo-drift{0%,100%{transform:translateY(0) rotate(var(--rotation))}50%{transform:translateY(-13px) rotate(calc(var(--rotation) + 3deg))}}
+.program-card{position:relative;cursor:pointer;transition:transform .25s,box-shadow .25s,border-color .25s}
+.program-card:hover{transform:translateY(-5px);box-shadow:0 18px 35px #0b2a4a13}
+.program-card .card-open{position:absolute;inset:0;z-index:2;border:0;background:transparent;border-radius:inherit;cursor:pointer;color:transparent}
+.program-card:focus-within{outline:2px solid #1e64bf;outline-offset:4px}
+.program-card .card-open:focus-visible{outline:none}
+.program-card .compare-toggle{position:relative;z-index:3}
+.program-actions .card-hint{font-weight:600;font-size:12px;display:flex;align-items:center;gap:8px}
+.card-hint:after{content:'+';display:grid;place-items:center;border:1px solid currentColor;width:18px;height:18px;border-radius:50%;font-size:15px;font-weight:400}
+.program-symbol{display:grid!important;place-items:center;width:46px!important;height:46px!important;flex-shrink:0}
+.program-symbol svg{width:26px;height:26px;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round;fill:none}
+#modal{max-height:90dvh;width:min(920px,calc(100% - 24px));border-radius:26px}
+.admission-heading{padding-right:36px}
+.admission-heading .modal-title{font-size:clamp(27px,3vw,43px);line-height:1.12;letter-spacing:-.04em;margin:16px 0}
+.admission-profile{color:#617086;font-size:15px;line-height:1.65;margin:0 0 20px}
+.admission-meta{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 26px}
+.admission-meta span{background:#e8eef8;padding:9px 13px;border-radius:30px;font-size:11px}
+.admission-section{margin-top:30px}
+.admission-section h3{font-size:20px;margin:0 0 17px;letter-spacing:-.025em}
+.admission-table-wrap{overflow-x:auto;border:1px solid #dbe4ef;border-radius:14px}
+.admission-table{border-collapse:collapse;width:100%;font-size:12px;line-height:1.5;min-width:470px}
+.admission-table th{text-align:left;background:#e6eef9;color:#37506d;font-size:10px;font-weight:600;padding:14px 15px}
+.admission-table td{padding:15px;border-top:1px solid #dbe4ef;min-width:60px}
+.admission-table td:first-child{text-align:left;min-width:125px;font-weight:500}
+.admission-table tbody tr:nth-child(even){background:#f3f6fb}
+.exam-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.exam-block{background:#edf3fa;border-radius:16px;padding:24px}
+.exam-block h3{font-size:17px;margin-bottom:16px}
+.admission-text{white-space:pre-line;font-size:13px;line-height:1.85;color:#41516a}
+.admission-status{padding:22px;background:#e9d8fd;border-radius:16px;line-height:1.6}
+.admission-footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;padding-top:25px;margin-top:30px;border-top:1px solid #dbe4ef}
+.admission-links{display:flex;gap:18px;flex-wrap:wrap;font-size:11px}
+.admission-links a{text-decoration:underline;text-underline-offset:4px}
+.admission-compare{margin-top:0}
+@media(min-width:1550px){.hero{min-height:780px}.hero-art{height:560px;min-height:560px}.hero-art .photo-main{height:430px;top:15px}.hero-art .photo-mini{bottom:8px;top:auto}.hero-art .spark-one{top:auto;bottom:0}}
+@media(max-width:1100px){.discovery-grid{grid-template-columns:1fr 1fr;grid-template-rows:280px 210px}.discovery-people{grid-row:1}.discovery-practice{grid-column:1;grid-row:2}.discovery-questions{grid-column:2;grid-row:2;padding:24px;display:block}.discovery-questions p{display:none}.discovery-questions .button{margin-top:6px}.final-cta{gap:20px}.final-photos{height:360px}.final-photo img{height:140px}.final-photo-three{top:180px}.final-photo-three img{height:115px}}
+@media(max-width:760px){.hero{padding-bottom:44px;min-height:0}.hero-art{height:440px;min-height:440px;max-width:460px}.hero-art .photo-main{height:330px;top:10px}.hero-art .photo-mini{bottom:10px}.hero-art .art-coordinate{display:none}.discover{padding-top:60px;padding-bottom:60px}.discover-intro{display:block}.discover-intro h2{font-size:38px}.discover-intro>.button{margin:20px 0 0}.discovery-grid{gap:14px;grid-template-rows:270px 240px}.discovery-grid h3{font-size:22px}.discovery-photo>div{left:20px;bottom:20px;right:20px}.discovery-photo p{display:none}.discovery-choice{padding:22px}.discovery-choice p{font-size:12px}.discovery-choice .discovery-mark{font-size:38px;right:14px;top:8px}.discovery-button{padding:10px;font-size:10px}.discovery-questions{padding:21px}.discovery-questions .button{padding:10px 12px;font-size:10px}.discovery-grid article>span,.discovery-photo span,.discovery-questions span{font-size:8px}.final-cta{grid-template-columns:1fr;gap:28px;padding-top:55px;padding-bottom:58px}.final-copy h2{font-size:70px;margin-bottom:28px}.final-photos{justify-self:center;width:100%;max-width:440px;height:360px}.final-photo img{height:155px}.final-photo-three img{height:120px}.final-spark{right:6%;top:-14px;font-size:72px}.exam-grid{grid-template-columns:1fr}.exam-block{padding:20px}.admission-footer>.button{width:100%;justify-content:center}.faq-all-button{font-size:11px}.admission-table td{padding:12px}.admission-heading{padding-right:17px}}
+@media(max-width:420px){.hero-art{height:380px;min-height:380px}.hero-art .photo-main{height:285px}.discovery-grid{grid-template-columns:1fr;grid-template-rows:240px 235px 210px 200px}.discovery-people,.discovery-choice,.discovery-practice,.discovery-questions{grid-column:1;grid-row:auto}.discovery-choice h3{margin-top:18px}.discovery-choice p{max-width:none}.discovery-questions p{display:block}.discovery-questions .button{margin-top:15px}.final-photos{height:320px}.final-photo img{height:128px}.final-photo-three{top:166px}.final-photo-three img{height:105px}}
+@media(max-width:420px){.discovery-grid{grid-template-columns:1fr 1fr;grid-template-rows:220px 240px 176px;gap:12px}.discovery-people{grid-column:1/3;grid-row:1}.discovery-choice{grid-column:1;grid-row:2;padding:18px}.discovery-practice{grid-column:2;grid-row:2}.discovery-questions{grid-column:1/3;grid-row:3;padding:20px}.discovery-grid h3{font-size:21px}.discovery-choice h3{margin-top:23px}.discovery-choice p{font-size:10px}.discovery-button{font-size:9px;padding:10px 8px;line-height:1.4}.discovery-practice>div{left:17px;right:15px}.discovery-questions h3{margin:9px 0 6px}.discovery-questions p{font-size:11px}.discovery-questions .button{margin-top:10px}.program-actions .card-hint{font-size:10px}}
+.about{padding-bottom:45px}.discover{padding-top:45px}
+@media(max-width:600px){.program-grid{grid-template-columns:1fr;gap:14px}.program-card{padding:23px;min-height:260px}.program-card h3{font-size:23px;line-height:1.2;word-break:normal;overflow-wrap:normal}.program-card .faculty{font-size:11px;max-width:280px;line-height:1.7}.program-card .program-top{font-size:8px;margin-bottom:22px}.program-theme{font-size:8px}.program-actions{flex-direction:row;align-items:center}.program-actions .card-hint{font-size:11px}.program-actions>.compare-toggle{font-size:10px;width:auto;justify-content:flex-start;min-height:32px}.discover-intro p{font-size:13px}.about{padding-bottom:30px}.discover{padding-top:30px}.guide-card{grid-template-columns:66px 1fr}}

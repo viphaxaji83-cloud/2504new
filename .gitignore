@@ -1,0 +1,10 @@
+body-crops/
+table-crops/
+extracted-programs/
+extracted-bodies/
+extracted-tables/
+extraction-review.txt
+revise-*.py
+dist/qa-*.html
+screenshots/tables-*.png
+screenshots/verify-*.png

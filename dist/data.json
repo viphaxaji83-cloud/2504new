@@ -1,574 +1,2633 @@
-﻿{
-    "programs":  [
-                     {
-                         "id":  "himiya",
-                         "name":  "Химия",
-                         "faculty":  "Факультет аграрных технологий",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-himiya.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/04.03.01him.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "ht",
-                         "name":  "Химическая технология",
-                         "faculty":  "Факультет аграрных технологий",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-ht.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/18.03.01ht.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "tpo",
-                         "name":  "Технология продукции и организация общественного питания",
-                         "faculty":  "Факультет аграрных технологий",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-tpo.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/19.03.04top.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "zk",
-                         "name":  "Землеустройство и кадастры",
-                         "faculty":  "Факультет аграрных технологий",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-zk.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/21.03.02zy.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "agro",
-                         "name":  "Агрономия",
-                         "faculty":  "Факультет аграрных технологий",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-agro.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/35.03.04ag.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "tppsp",
-                         "name":  "Технология производства и переработки сельскохозяйственной продукции",
-                         "faculty":  "Факультет аграрных технологий",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-tppsp.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/35.03.07tp.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "zoo",
-                         "name":  "Зоотехния",
-                         "faculty":  "Факультет аграрных технологий",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-zoo.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/36.03.02zt.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "str",
-                         "name":  "Строительство",
-                         "faculty":  "Технологический факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-str.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/08.03.01str.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "tmo",
-                         "name":  "Технологические машины и оборудование",
-                         "faculty":  "Технологический факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-tmo.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/15.03.02tmo.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "ppr",
-                         "name":  "Продукты питания из растительного сырья",
-                         "faculty":  "Технологический факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-ppr.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/19.03.02ppr.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "tilp",
-                         "name":  "Технология изделий легкой промышленности",
-                         "faculty":  "Технологический факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-tilp.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/29.03.01tsh.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "agroinj",
-                         "name":  "Агроинженерия",
-                         "faculty":  "Технологический факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-agroinj.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/35.03.06ai.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "standimetrolog",
-                         "name":  "Стандартизация и метрология",
-                         "faculty":  "Технологический факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-standimetrolog.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/29.03.01tsh.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "eco_tovaroved",
-                         "name":  "Товароведение",
-                         "faculty":  "Технологический факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-eco_tovaroved.jpg",
-                         "document":  null,
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "pi",
-                         "name":  "Прикладная информатика",
-                         "faculty":  "Факультет информационных систем в экономике и юриспруденции",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-pi.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/09.03.03pi.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "ib",
-                         "name":  "Информационная безопасность",
-                         "faculty":  "Факультет информационных систем в экономике и юриспруденции",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-ib.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/10.03.01bi.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "ur",
-                         "name":  "Юриспруденция",
-                         "faculty":  "Факультет информационных систем в экономике и юриспруденции",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-ur.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/40.03.01ur.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "elel",
-                         "name":  "Электроэнергетика и электротехника",
-                         "faculty":  "Инженерный факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-elel.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/13.03.02et.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "nd",
-                         "name":  "Нефтегазовое дело",
-                         "faculty":  "Инженерный факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-nd.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/21.03.01nd.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "ttproc",
-                         "name":  "Технология транспортных процессов",
-                         "faculty":  "Инженерный факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-ttproc.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/23.03.01ttp.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "ettmk",
-                         "name":  "Эксплуатация транспортно-технологических машин и комплексов",
-                         "faculty":  "Инженерный факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-ettmk.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/23.03.03emk.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "techbez",
-                         "name":  "Техносферная безопасность",
-                         "faculty":  "Экологический факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-techbez.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/20.03.01tb.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "lesdel",
-                         "name":  "Лесное дело",
-                         "faculty":  "Экологический факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-lesdel.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/35.03.01lh.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "landarch",
-                         "name":  "Ландшафтная архитектура",
-                         "faculty":  "Экологический факультет",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-landarch.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/35.03.10lsh.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "rso",
-                         "name":  "Реклама и связи с общественностью",
-                         "faculty":  "Факультет экономики и управления",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-rso.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/42.03.01rso.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "ser",
-                         "name":  "Сервис",
-                         "faculty":  "Факультет экономики и управления",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-ser.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/43.03.01sr.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "tur",
-                         "name":  "Туризм",
-                         "faculty":  "Факультет экономики и управления",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-tur.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/43.03.02ty.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "gost",
-                         "name":  "Гостиничное дело",
-                         "faculty":  "Факультет экономики и управления",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-gost.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/43.03.03gd.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "innov",
-                         "name":  "Инноватика",
-                         "faculty":  "Факультет экономики и управления",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-innov.jpg",
-                         "document":  null,
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "eco_eco",
-                         "name":  "Экономика",
-                         "faculty":  "Факультет экономики и управления",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-eco_eco.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/38.03.00mnog_kon%20econ_upr_eco.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "eco_men",
-                         "name":  "Менеджмент",
-                         "faculty":  "Факультет экономики и управления",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-eco_men.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/38.03.00mnog_kon%20econ_upr_men.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "eco_gosmunupr",
-                         "name":  "Государственное и муниципальное управление",
-                         "faculty":  "Факультет экономики и управления",
-                         "level":  "Бакалавриат",
-                         "image":  "assets/program-eco_gosmunupr.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/bak/38.03.00mnog_kon%20econ_upr_gos.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "speciasb",
-                         "name":  "Информационно-аналитические системы безопасности",
-                         "faculty":  "Факультет информационных систем в экономике и юриспруденции",
-                         "level":  "Специалитет",
-                         "image":  "assets/program-speciasb.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/spec/10.05.04ias.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "specpb",
-                         "name":  "Пожарная безопасность",
-                         "faculty":  "Экологический факультет",
-                         "level":  "Специалитет",
-                         "image":  "assets/program-specpb.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/spec/25.05.01pb.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "spectd",
-                         "name":  "Таможенное дело",
-                         "faculty":  "Технологический факультет",
-                         "level":  "Специалитет",
-                         "image":  "assets/program-spectd.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/spec/38.05.02td.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "specld",
-                         "name":  "Лечебное дело",
-                         "faculty":  "Лечебный факультет",
-                         "level":  "Специалитет",
-                         "image":  "assets/program-specld.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/spec/31.05.01ld.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "specmedkib",
-                         "name":  "Медицинская кибернетика",
-                         "faculty":  "Лечебный факультет",
-                         "level":  "Специалитет",
-                         "image":  "assets/program-specmedkib.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/spec/30.05.03mk.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "specped",
-                         "name":  "Педиатрия",
-                         "faculty":  "Педиатрический факультет",
-                         "level":  "Специалитет",
-                         "image":  "assets/program-specped.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/spec/31.05.02pd.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "specst",
-                         "name":  "Стоматология",
-                         "faculty":  "Стоматологический факультет",
-                         "level":  "Специалитет",
-                         "image":  "assets/program-specst.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/spec/31.05.03stm.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "specfarm",
-                         "name":  "Фармация",
-                         "faculty":  "Фармацевтический факультет",
-                         "level":  "Специалитет",
-                         "image":  "assets/program-specfarm.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/spec/33.05.01farm.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magstr",
-                         "name":  "Строительство",
-                         "faculty":  "Технологический факультет",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magstr.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/mag/08.04.01strmag.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magtd",
-                         "name":  "Товароведение",
-                         "faculty":  "Технологический факультет",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magtd.jpg",
-                         "document":  null,
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magtmo",
-                         "name":  "Технологические машины и оборудование",
-                         "faculty":  "Технологический факультет",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magtmo.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/mag/15.04.02tmomag.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magpps",
-                         "name":  "Продукты питания из растительного сырья",
-                         "faculty":  "Технологический факультет",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magpps.jpg",
-                         "document":  null,
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magpi",
-                         "name":  "Прикладная информатика",
-                         "faculty":  "Факультет информационных систем в экономике и юриспруденции",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magpi.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/mag/09.04.03pimag.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magur",
-                         "name":  "Юриспруденция",
-                         "faculty":  "Факультет информационных систем в экономике и юриспруденции",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magur.jpg",
-                         "document":  null,
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "mageco",
-                         "name":  "Экономика",
-                         "faculty":  "Факультет экономики и управления",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-mageco.jpg",
-                         "document":  null,
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magmgn",
-                         "name":  "Менеджмент",
-                         "faculty":  "Факультет экономики и управления",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magmgn.jpg",
-                         "document":  null,
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "maggmy",
-                         "name":  "Государственное и муниципальное управление",
-                         "faculty":  "Факультет экономики и управления",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-maggmy.jpg",
-                         "document":  null,
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magfik",
-                         "name":  "Финансы и кредит",
-                         "faculty":  "Факультет экономики и управления",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magfik.jpg",
-                         "document":  null,
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "maggostdel",
-                         "name":  "Гостиничное дело",
-                         "faculty":  "Факультет экономики и управления",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-maggostdel.jpg",
-                         "document":  null,
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magagro",
-                         "name":  "Агрономия",
-                         "faculty":  "Факультет аграрных технологий",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magagro.jpg",
-                         "document":  null,
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magzemkad",
-                         "name":  "Землеустройство и кадастры",
-                         "faculty":  "Факультет аграрных технологий",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magzemkad.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/mag/21.04.02zymag.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magtpo",
-                         "name":  "Технология продукции и организация общественного питания",
-                         "faculty":  "Факультет аграрных технологий",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magtpo.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/mag/19.04.04%20topmag.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magttp",
-                         "name":  "Технология транспортных процессов",
-                         "faculty":  "Инженерный факультет",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magttp.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/mag/23.04.01ttpmag.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magnd",
-                         "name":  "Нефтегазовое дело",
-                         "faculty":  "Инженерный факультет",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magnd.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/mag/21.04.01ndmag.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magemk",
-                         "name":  "Эксплуатация транспортно-технологических машин и комплексов",
-                         "faculty":  "Инженерный факультет",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magemk.jpg",
-                         "document":  null,
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magland",
-                         "name":  "Ландшафтная архитектура",
-                         "faculty":  "Экологический факультет",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magland.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/mag/35.04.09landmag.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     },
-                     {
-                         "id":  "magtechbez",
-                         "name":  "Техносферная безопасность",
-                         "faculty":  "Экологический факультет",
-                         "level":  "Магистратура",
-                         "image":  "assets/program-magtechbez.jpg",
-                         "document":  "https://2504.mkgtu.ru/upload/prog/mag/20.04.01tbmag.pdf",
-                         "cost":  "https://mkgtu.ru/sveden/paid_edu/"
-                     }
-                 ],
-    "facts":  [
-                  "Всего 4388 место для приёма в 2026 году из них: · бюджетных мест - 1679 · коммерческих мест - 2709",
-                  "Более 13 тысяч обучающихся",
-                  "Более 30 тысяч выпускников",
-                  "12 факультетов",
-                  "Медицинский институт",
-                  "Филиал в поселке Яблоновском",
-                  "Политехнический колледж в г.Майкопе",
-                  "Научная библиотека МГТУ",
-                  "Военный учебный центр при МГТУ",
-                  "НИИ сельского хозяйства",
-                  "138 реализуемых основных образовательных программ",
-                  "17 учебных корпусов",
-                  "180 учебно-научных лабораторий",
-                  "5 научно-образовательных центров",
-                  "3 общежития в городе Майкопе",
-                  "Автошкола , станция техобсуживания и ремонта автомобилей",
-                  "5 спортивных площадок",
-                  "1 здание спорткомплекса",
-                  "2 спортивных зала",
-                  "4 тренажерных зала ЛФК",
-                  "4 уровня профессионального образования:",
-                  "• среднее профессиональное образование",
-                  "• высшее образование - бакалавриат",
-                  "• высшее образование - специалитет, магистратура",
-                  "• высшее образование - подготовка кадров высшей квалификации – ординатура, аспирантура",
-                  "84% преподавателей с учёным степенями и званиями, более 30 визит-профессоров. Для чтения лекций приглашаются ведущие зарубежные учёные",
-                  "Более 70% студентов учавствуют в выполнении НИОКР в научных центрах и лабораториях вуза",
-                  "Более 150 программ дополнительного образования: ведущие программы IT-индустрии, фотостудия, авто- и мотошкола, иностранные языки",
-                  "Более 60 млн. руб. ежегодных вложений в обновление материально- технической базы университета и открытие новых лабораторий",
-                  "Более 3000 студентов, получающих социальную поддержку и материальную помощь ежегодно",
-                  "16 видов стипендий",
-                  "14 студенческих объединений",
-                  "Более 200 работодателей",
-                  "Более 50 стратегических предприятий-партнёров, включая ГК \"Росатом\"",
-                  "Иностранные студенты из 40 стран мира",
-                  "51 и более стран, с которыми реализуются программы по обмену",
-                  "27 зарубежных вузов-партнёров"
-              ]
+{
+  "programs": [
+    {
+      "id": "himiya",
+      "name": "Химия",
+      "faculty": "Факультет аграрных технологий",
+      "level": "Бакалавриат",
+      "image": null,
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/04.03.01him.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "04.03.01",
+        "year": "2026–2027",
+        "profile": "",
+        "status": "Набор на 2026–2027 учебный год не ведётся",
+        "headers": [],
+        "rows": [],
+        "ege": "",
+        "spo": "",
+        "entrance": "",
+        "duration": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": "ht",
+      "name": "Химическая технология",
+      "faculty": "Факультет аграрных технологий",
+      "level": "Бакалавриат",
+      "image": "assets/program-ht.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/18.03.01ht.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "18.03.01",
+        "year": "2026–2027",
+        "profile": "Химическая технология синтетических биологически активных веществ, химико-фармацевтических препаратов и косметических средств",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "23",
+            "3",
+            "3",
+            "5"
+          ],
+          [
+            "заочная",
+            "—",
+            "—",
+            "—",
+            "30"
+          ]
+        ],
+        "ege": "1. Химия — 40\n2. Русский язык — 40\n3. На выбор: Математика (профильный уровень) — 40, Физика — 41, Информатика — 46",
+        "spo": "1. Основы физико-химических методов анализа — 40\n2. Русский язык — 40\n3. Алгебра, геометрия и начала анализа — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "tpo",
+      "name": "Технология продукции и организация общественного питания",
+      "faculty": "Факультет аграрных технологий",
+      "level": "Бакалавриат",
+      "image": "assets/program-tpo.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/19.03.04top.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "19.03.04",
+        "year": "2026–2027",
+        "profile": "Технология продуктов общественного питания",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "11",
+            "2",
+            "2",
+            "9"
+          ],
+          [
+            "заочная",
+            "15",
+            "1",
+            "1",
+            "5"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Биология — 40, Химия — 40",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Метрология и стандартизация — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "zk",
+      "name": "Землеустройство и кадастры",
+      "faculty": "Факультет аграрных технологий",
+      "level": "Бакалавриат",
+      "image": "assets/program-zk.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/21.03.02zy.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "21.03.02",
+        "year": "2026–2027",
+        "profile": "Землеустройство",
+        "status": "",
+        "headers": [
+          "Подразделение",
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "МГТУ",
+            "очная",
+            "20",
+            "2",
+            "2",
+            "5"
+          ],
+          [
+            "МГТУ",
+            "заочная",
+            "50",
+            "5",
+            "5",
+            "20"
+          ],
+          [
+            "Филиал МГТУ",
+            "очная",
+            "8",
+            "1",
+            "1",
+            "12"
+          ],
+          [
+            "Филиал МГТУ",
+            "заочная",
+            "20",
+            "2",
+            "2",
+            "20"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Информатика — 46, Химия — 40, География — 40",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Метрология и стандартизация — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "agro",
+      "name": "Агрономия",
+      "faculty": "Факультет аграрных технологий",
+      "level": "Бакалавриат",
+      "image": "assets/program-agro.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/35.03.04ag.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "35.03.04",
+        "year": "2026–2027",
+        "profile": "Агрономия",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "15",
+            "2",
+            "2",
+            "5"
+          ],
+          [
+            "заочная",
+            "15",
+            "1",
+            "1",
+            "10"
+          ]
+        ],
+        "ege": "1. Биология — 40\n2. Русский язык — 40\n3. На выбор: Математика (профильный уровень) — 40, Химия — 40, География — 40, Физика — 41, Информатика — 46",
+        "spo": "1. Рациональное природопользование — 40\n2. Русский язык — 40\n3. Алгебра, геометрия и начала анализа — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "tppsp",
+      "name": "Технология производства и переработки сельскохозяйственной продукции",
+      "faculty": "Факультет аграрных технологий",
+      "level": "Бакалавриат",
+      "image": "assets/program-tppsp.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/35.03.07tp.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "35.03.07",
+        "year": "2026–2027",
+        "profile": "Хранение и переработка сельскохозяйственной продукции",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "15",
+            "1",
+            "1",
+            "5"
+          ],
+          [
+            "заочная",
+            "15",
+            "2",
+            "2",
+            "5"
+          ]
+        ],
+        "ege": "1. Биология — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Математика (профильный уровень) — 40, Химия — 40, География — 40, Информатика — 46",
+        "spo": "1. Метрология и стандартизация — 40\n2. Русский язык — 40\n3. Алгебра, геометрия и начала анализа — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "zoo",
+      "name": "Зоотехния",
+      "faculty": "Факультет аграрных технологий",
+      "level": "Бакалавриат",
+      "image": "assets/program-zoo.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/36.03.02zt.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "36.03.02",
+        "year": "2026–2027",
+        "profile": "Технология производства продукции животноводства",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "25",
+            "3",
+            "3",
+            "5"
+          ],
+          [
+            "заочная",
+            "20",
+            "2",
+            "2",
+            "5"
+          ]
+        ],
+        "ege": "1. Биология — 40\n2. Русский язык — 40\n3. На выбор: Химия — 40, Математика (профильный уровень) — 40",
+        "spo": "1. Рациональное природопользование — 40\n2. Русский язык — 40\n3. Алгебра, геометрия и начала анализа — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "str",
+      "name": "Строительство",
+      "faculty": "Технологический факультет",
+      "level": "Бакалавриат",
+      "image": "assets/program-str.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/08.03.01str.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "08.03.01",
+        "year": "2026–2027",
+        "profile": "",
+        "status": "",
+        "headers": [
+          "Профиль",
+          "Подразделение",
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "Промышленное и гражданское строительство",
+            "МГТУ",
+            "очная",
+            "14",
+            "2",
+            "2",
+            "15"
+          ],
+          [
+            "Промышленное и гражданское строительство",
+            "МГТУ",
+            "очно-заочная",
+            "—",
+            "—",
+            "—",
+            "80"
+          ],
+          [
+            "Промышленное и гражданское строительство",
+            "Филиал МГТУ",
+            "очная",
+            "5",
+            "1",
+            "1",
+            "15"
+          ],
+          [
+            "Промышленное и гражданское строительство",
+            "Филиал МГТУ",
+            "очно-заочная",
+            "—",
+            "—",
+            "—",
+            "50"
+          ],
+          [
+            "Автомобильные дороги",
+            "МГТУ",
+            "очная",
+            "15",
+            "1",
+            "1",
+            "15"
+          ],
+          [
+            "Автомобильные дороги",
+            "МГТУ",
+            "очно-заочная",
+            "—",
+            "—",
+            "—",
+            "20"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Информатика — 46, Химия — 40",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Метрология и стандартизация — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nОчно-заочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "tmo",
+      "name": "Технологические машины и оборудование",
+      "faculty": "Технологический факультет",
+      "level": "Бакалавриат",
+      "image": "assets/program-tmo.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/15.03.02tmo.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "15.03.02",
+        "year": "2026–2027",
+        "profile": "Машины и аппараты пищевых производств",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "12",
+            "2",
+            "2",
+            "5"
+          ],
+          [
+            "заочная",
+            "13",
+            "1",
+            "1",
+            "10"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Информатика — 46, Химия — 40",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Метрология и стандартизация — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "ppr",
+      "name": "Продукты питания из растительного сырья",
+      "faculty": "Технологический факультет",
+      "level": "Бакалавриат",
+      "image": "assets/program-ppr.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/19.03.02ppr.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "19.03.02",
+        "year": "2026–2027",
+        "profile": "Технология бродильных производств и виноделие",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "11",
+            "2",
+            "2",
+            "9"
+          ],
+          [
+            "заочная",
+            "15",
+            "1",
+            "1",
+            "5"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Биология — 40, Химия — 40",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Метрология и стандартизация — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "tilp",
+      "name": "Технология изделий легкой промышленности",
+      "faculty": "Технологический факультет",
+      "level": "Бакалавриат",
+      "image": "assets/program-tilp.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/29.03.01tsh.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "29.03.01",
+        "year": "2026–2027",
+        "profile": "Технология швейных изделий",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "11",
+            "1",
+            "1",
+            "5"
+          ],
+          [
+            "заочная",
+            "13",
+            "2",
+            "2",
+            "5"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Информатика — 46, Химия — 40",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Метрология и стандартизация — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "agroinj",
+      "name": "Агроинженерия",
+      "faculty": "Технологический факультет",
+      "level": "Бакалавриат",
+      "image": "assets/program-agroinj.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/35.03.06ai.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "35.03.06",
+        "year": "2026–2027",
+        "profile": "Технологическое оборудование для хранения и переработки сельскохозяйственной продукции",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "14",
+            "1",
+            "1",
+            "5"
+          ],
+          [
+            "заочная",
+            "14",
+            "2",
+            "2",
+            "5"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: География — 40, Физика — 41, Информатика — 46, Химия — 40, Биология — 40",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Метрология и стандартизация — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "standimetrolog",
+      "name": "Стандартизация и метрология",
+      "faculty": "Технологический факультет",
+      "level": "Бакалавриат",
+      "image": null,
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/29.03.01tsh.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "27.03.01",
+        "year": "2026–2027",
+        "profile": "",
+        "status": "Набор на 2026–2027 учебный год не ведётся",
+        "headers": [],
+        "rows": [],
+        "ege": "",
+        "spo": "",
+        "entrance": "",
+        "duration": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": "eco_tovaroved",
+      "name": "Товароведение",
+      "faculty": "Технологический факультет",
+      "level": "Бакалавриат",
+      "image": null,
+      "document": null,
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "38.03.07",
+        "year": "2026–2027",
+        "profile": "",
+        "status": "Набор на 2026–2027 учебный год не ведётся",
+        "headers": [],
+        "rows": [],
+        "ege": "",
+        "spo": "",
+        "entrance": "",
+        "duration": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": "pi",
+      "name": "Прикладная информатика",
+      "faculty": "Факультет информационных систем в экономике и юриспруденции",
+      "level": "Бакалавриат",
+      "image": "assets/program-pi.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/09.03.03pi.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "09.03.03",
+        "year": "2026–2027",
+        "profile": "Прикладная информатика в экономике",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "24",
+            "3",
+            "3",
+            "6"
+          ],
+          [
+            "заочная",
+            "18",
+            "2",
+            "2",
+            "12"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Информатика — 46",
+        "spo": "1. Информационные технологии — 40\n2. Русский язык — 40\n3. Основы информационной безопасности — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "ib",
+      "name": "Информационная безопасность",
+      "faculty": "Факультет информационных систем в экономике и юриспруденции",
+      "level": "Бакалавриат",
+      "image": "assets/program-ib.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/10.03.01bi.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "10.03.01",
+        "year": "2026–2027",
+        "profile": "Организация и технология защиты информации",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "16",
+            "2",
+            "2",
+            "9"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—",
+            "—",
+            "20"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Информатика — 46",
+        "spo": "1. Информационные технологии — 40\n2. Русский язык — 40\n3. Основы информационной безопасности — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nОчно-заочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "ur",
+      "name": "Юриспруденция",
+      "faculty": "Факультет информационных систем в экономике и юриспруденции",
+      "level": "Бакалавриат",
+      "image": "assets/program-ur.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/40.03.01ur.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "40.03.01",
+        "year": "2026–2027",
+        "profile": "",
+        "status": "",
+        "headers": [
+          "Профиль / подразделение",
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "Уголовно-правовой",
+            "очная",
+            "—",
+            "—",
+            "—",
+            "17"
+          ],
+          [
+            "Уголовно-правовой",
+            "заочная",
+            "—",
+            "—",
+            "—",
+            "35"
+          ],
+          [
+            "Цифровой юрист",
+            "очная",
+            "—",
+            "—",
+            "—",
+            "—"
+          ],
+          [
+            "Цифровой юрист",
+            "заочная",
+            "—",
+            "—",
+            "—",
+            "15"
+          ]
+        ],
+        "ege": "1. Обществознание — 45\n2. Русский язык — 40\n3. На выбор: История — 40, Математика (профильный уровень) — 40, Информатика — 46",
+        "spo": "1. Основы права — 45\n2. Русский язык — 40\n3. История России — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "elel",
+      "name": "Электроэнергетика и электротехника",
+      "faculty": "Инженерный факультет",
+      "level": "Бакалавриат",
+      "image": "assets/program-elel.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/13.03.02et.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "13.03.02",
+        "year": "2026–2027",
+        "profile": "Электроэнергетические системы и сети",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "43",
+            "5",
+            "5",
+            "7"
+          ],
+          [
+            "заочная",
+            "51",
+            "5",
+            "5",
+            "50"
+          ]
+        ],
+        "ege": "1. Физика — 41\n2. Русский язык — 40\n3. На выбор: Математика (профильный уровень) — 40, Химия — 40, Информатика — 46",
+        "spo": "1. Метрология и стандартизация — 40\n2. Русский язык — 40\n3. Алгебра, геометрия и начала анализа — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "nd",
+      "name": "Нефтегазовое дело",
+      "faculty": "Инженерный факультет",
+      "level": "Бакалавриат",
+      "image": "assets/program-nd.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/21.03.01nd.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "21.03.01",
+        "year": "2026–2027",
+        "profile": "",
+        "status": "",
+        "headers": [
+          "Профиль",
+          "Подразделение",
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "Эксплуатация и обслуживание объектов транспорта и хранения нефти, газа и продуктов переработки",
+            "МГТУ",
+            "очная",
+            "20",
+            "2",
+            "2",
+            "7"
+          ],
+          [
+            "Эксплуатация и обслуживание объектов транспорта и хранения нефти, газа и продуктов переработки",
+            "МГТУ",
+            "очно-заочная",
+            "7",
+            "1",
+            "1",
+            "61"
+          ],
+          [
+            "Эксплуатация и обслуживание объектов транспорта и хранения нефти, газа и продуктов переработки",
+            "Филиал МГТУ",
+            "очная",
+            "10",
+            "1",
+            "1",
+            "—"
+          ],
+          [
+            "Эксплуатация и обслуживание объектов транспорта и хранения нефти, газа и продуктов переработки",
+            "Филиал МГТУ",
+            "очно-заочная",
+            "—",
+            "—",
+            "—",
+            "90"
+          ],
+          [
+            "Бурение нефтяных и газовых скважин",
+            "МГТУ",
+            "очно-заочная",
+            "—",
+            "—",
+            "—",
+            "27"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Информатика — 46, Физика — 41, Химия — 40, География — 40",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Метрология и стандартизация — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nОчно-заочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "ttproc",
+      "name": "Технология транспортных процессов",
+      "faculty": "Инженерный факультет",
+      "level": "Бакалавриат",
+      "image": "assets/program-ttproc.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/23.03.01ttp.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "23.03.01",
+        "year": "2026–2027",
+        "profile": "Логистика на транспорте",
+        "status": "",
+        "headers": [
+          "Подразделение",
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "МГТУ",
+            "очная",
+            "7",
+            "1",
+            "1",
+            "8"
+          ],
+          [
+            "МГТУ",
+            "очно-заочная",
+            "—",
+            "—",
+            "—",
+            "—"
+          ],
+          [
+            "МГТУ",
+            "заочная",
+            "—",
+            "—",
+            "—",
+            "20"
+          ],
+          [
+            "Филиал МГТУ",
+            "очная",
+            "—",
+            "—",
+            "—",
+            "—"
+          ],
+          [
+            "Филиал МГТУ",
+            "очно-заочная",
+            "13",
+            "2",
+            "2",
+            "10"
+          ],
+          [
+            "Филиал МГТУ",
+            "заочная",
+            "—",
+            "—",
+            "—",
+            "25"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Информатика — 46, Химия — 40",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Метрология и стандартизация — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nОчно-заочная форма — 4,5 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "ettmk",
+      "name": "Эксплуатация транспортно-технологических машин и комплексов",
+      "faculty": "Инженерный факультет",
+      "level": "Бакалавриат",
+      "image": "assets/program-ettmk.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/23.03.03emk.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "23.03.03",
+        "year": "2026–2027",
+        "profile": "Автомобильный сервис",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "8",
+            "1",
+            "1",
+            "7"
+          ],
+          [
+            "заочная",
+            "—",
+            "—",
+            "—",
+            "20"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Химия — 40, Информатика — 46",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Метрология и стандартизация — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "techbez",
+      "name": "Техносферная безопасность",
+      "faculty": "Экологический факультет",
+      "level": "Бакалавриат",
+      "image": "assets/program-techbez.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/20.03.01tb.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "20.03.01",
+        "year": "2026–2027",
+        "profile": "Обеспечение экологической безопасности",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "12",
+            "2",
+            "2",
+            "8"
+          ],
+          [
+            "заочная",
+            "—",
+            "—",
+            "—",
+            "20"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Информатика — 46, Химия — 40",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Метрология и стандартизация — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "lesdel",
+      "name": "Лесное дело",
+      "faculty": "Экологический факультет",
+      "level": "Бакалавриат",
+      "image": "assets/program-lesdel.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/35.03.01lh.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "35.03.01",
+        "year": "2026–2027",
+        "profile": "Лесомелиорация ландшафтов и инженерная биология",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "15",
+            "1",
+            "1",
+            "5"
+          ],
+          [
+            "заочная",
+            "15",
+            "2",
+            "2",
+            "5"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Химия — 40, Информатика — 46, География — 40, Биология — 40",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Рациональное природопользование — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "landarch",
+      "name": "Ландшафтная архитектура",
+      "faculty": "Экологический факультет",
+      "level": "Бакалавриат",
+      "image": "assets/program-landarch.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/35.03.10lsh.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "35.03.10",
+        "year": "2026–2027",
+        "profile": "Ландшафтная урбанистика",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "15",
+            "2",
+            "2",
+            "5"
+          ],
+          [
+            "заочная",
+            "15",
+            "1",
+            "1",
+            "15"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Биология — 40, Физика — 41, Химия — 40, География — 40, Информатика — 46",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Рациональное природопользование — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "rso",
+      "name": "Реклама и связи с общественностью",
+      "faculty": "Факультет экономики и управления",
+      "level": "Бакалавриат",
+      "image": "assets/program-rso.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/42.03.01rso.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "42.03.01",
+        "year": "2026–2027",
+        "profile": "Реклама и связи с общественностью в коммерческой сфере",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "заочная",
+            "—",
+            "—",
+            "—",
+            "17"
+          ]
+        ],
+        "ege": "1. Обществознание — 45\n2. Русский язык — 40\n3. На выбор: История — 40, Информатика — 46",
+        "spo": "1. Основы права — 45\n2. Русский язык — 40\n3. Экономика организации — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "ser",
+      "name": "Сервис",
+      "faculty": "Факультет экономики и управления",
+      "level": "Бакалавриат",
+      "image": null,
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/43.03.01sr.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "43.03.01",
+        "year": "2026–2027",
+        "profile": "",
+        "status": "Набор на 2026–2027 учебный год не ведётся",
+        "headers": [],
+        "rows": [],
+        "ege": "",
+        "spo": "",
+        "entrance": "",
+        "duration": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": "tur",
+      "name": "Туризм",
+      "faculty": "Факультет экономики и управления",
+      "level": "Бакалавриат",
+      "image": "assets/program-tur.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/43.03.02ty.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "43.03.02",
+        "year": "2026–2027",
+        "profile": "Технология и организация туроператорских и турагентских услуг",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "7",
+            "1",
+            "1",
+            "15"
+          ],
+          [
+            "заочная",
+            "9",
+            "1",
+            "1",
+            "10"
+          ]
+        ],
+        "ege": "1. История — 40\n2. Русский язык — 40\n3. На выбор: География — 40, Обществознание — 45",
+        "spo": "1. Экономика организации — 40\n2. Русский язык — 40\n3. Основы права — 45",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "gost",
+      "name": "Гостиничное дело",
+      "faculty": "Факультет экономики и управления",
+      "level": "Бакалавриат",
+      "image": "assets/program-gost.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/43.03.03gd.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "43.03.03",
+        "year": "2026–2027",
+        "profile": "Гостиничная деятельность",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "—",
+            "—",
+            "—",
+            "15"
+          ],
+          [
+            "заочная",
+            "—",
+            "—",
+            "—",
+            "10"
+          ]
+        ],
+        "ege": "1. Обществознание — 45\n2. Русский язык — 40\n3. На выбор: История — 40, География — 40",
+        "spo": "1. Основы права — 45\n2. Русский язык — 40\n3. Экономика организации — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nЗаочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "innov",
+      "name": "Инноватика",
+      "faculty": "Факультет экономики и управления",
+      "level": "Бакалавриат",
+      "image": null,
+      "document": null,
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "27.03.05",
+        "year": "2026–2027",
+        "profile": "",
+        "status": "Набор на 2026–2027 учебный год не ведётся",
+        "headers": [],
+        "rows": [],
+        "ege": "",
+        "spo": "",
+        "entrance": "",
+        "duration": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": "eco_eco",
+      "name": "Экономика",
+      "faculty": "Факультет экономики и управления",
+      "level": "Бакалавриат",
+      "image": "assets/program-eco_eco.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/38.03.00mnog_kon%20econ_upr_eco.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "38.03.01",
+        "year": "2026–2027",
+        "profile": "Финансы и кредит",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "—",
+            "—",
+            "—",
+            "—"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—",
+            "—",
+            "29"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Обществознание — 45, История — 40, География — 40, Информатика — 46",
+        "spo": "1. Экономика организации — 40\n2. Русский язык — 40\n3. Основы права — 45",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nОчно-заочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "eco_men",
+      "name": "Менеджмент",
+      "faculty": "Факультет экономики и управления",
+      "level": "Бакалавриат",
+      "image": "assets/program-eco_men.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/38.03.00mnog_kon%20econ_upr_men.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "38.03.02",
+        "year": "2026–2027",
+        "profile": "",
+        "status": "",
+        "headers": [],
+        "rows": [],
+        "ege": "",
+        "spo": "",
+        "entrance": "",
+        "duration": "",
+        "notes": "Условия приёма можно уточнить в приёмной комиссии МГТУ."
+      }
+    },
+    {
+      "id": "eco_gosmunupr",
+      "name": "Государственное и муниципальное управление",
+      "faculty": "Факультет экономики и управления",
+      "level": "Бакалавриат",
+      "image": "assets/program-eco_gosmunupr.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/bak/38.03.00mnog_kon%20econ_upr_gos.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "38.03.04",
+        "year": "2026–2027",
+        "profile": "Государственное и муниципальное управление в социальной сфере",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "9",
+            "1",
+            "1",
+            "4"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—",
+            "—",
+            "25"
+          ]
+        ],
+        "ege": "1. Обществознание — 45\n2. Русский язык — 40\n3. На выбор: История — 40, Математика (профильный уровень) — 40",
+        "spo": "1. Основы права — 45\n2. Русский язык — 40\n3. Экономика организации — 40",
+        "entrance": "",
+        "duration": "Очная форма — 4 года\nОчно-заочная форма — 4,5 года",
+        "notes": ""
+      }
+    },
+    {
+      "id": "speciasb",
+      "name": "Информационно-аналитические системы безопасности",
+      "faculty": "Факультет информационных систем в экономике и юриспруденции",
+      "level": "Специалитет",
+      "image": "assets/program-speciasb.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/spec/10.05.04ias.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "10.05.04",
+        "year": "2026–2027",
+        "profile": "Информационная безопасность финансовых и экономических структур",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "7",
+            "1",
+            "1",
+            "10"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Информатика — 46",
+        "spo": "1. Информационные технологии — 40\n2. Русский язык — 40\n3. Основы информационной безопасности — 40",
+        "entrance": "",
+        "duration": "Очная форма — 5,5 лет",
+        "notes": ""
+      }
+    },
+    {
+      "id": "specpb",
+      "name": "Пожарная безопасность",
+      "faculty": "Экологический факультет",
+      "level": "Специалитет",
+      "image": "assets/program-specpb.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/spec/25.05.01pb.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "20.05.01",
+        "year": "2026–2027",
+        "profile": "Пожарная безопасность",
+        "status": "",
+        "headers": [
+          "Профиль / подразделение",
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "МГТУ",
+            "очная",
+            "18",
+            "2",
+            "2",
+            "1"
+          ],
+          [
+            "МГТУ",
+            "заочная",
+            "—",
+            "—",
+            "—",
+            "12"
+          ],
+          [
+            "Филиал МГТУ",
+            "заочная",
+            "—",
+            "—",
+            "—",
+            "10"
+          ]
+        ],
+        "ege": "1. Математика (профильный уровень) — 40\n2. Русский язык — 40\n3. На выбор: Физика — 41, Химия — 40, Информатика — 46",
+        "spo": "1. Алгебра, геометрия и начала анализа — 40\n2. Русский язык — 40\n3. Метрология и стандартизация — 40",
+        "entrance": "",
+        "duration": "Очная форма — 5 лет\nОчно-заочная форма — 5,5 лет\nЗаочная форма — 5,5 лет",
+        "notes": ""
+      }
+    },
+    {
+      "id": "spectd",
+      "name": "Таможенное дело",
+      "faculty": "Технологический факультет",
+      "level": "Специалитет",
+      "image": "assets/program-spectd.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/spec/38.05.02td.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "38.05.02",
+        "year": "2026–2027",
+        "profile": "Товароведение и экспертиза в таможенном деле",
+        "status": "",
+        "headers": [
+          "Профиль / подразделение",
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "МГТУ",
+            "очная",
+            "—",
+            "—",
+            "—",
+            "18"
+          ],
+          [
+            "МГТУ",
+            "заочная",
+            "—",
+            "—",
+            "—",
+            "14"
+          ],
+          [
+            "Филиал МГТУ",
+            "очная",
+            "—",
+            "—",
+            "—",
+            "—"
+          ],
+          [
+            "Филиал МГТУ",
+            "заочная",
+            "—",
+            "—",
+            "—",
+            "15"
+          ]
+        ],
+        "ege": "1. Обществознание (ЕГЭ) — 45\n2. Русский язык (ЕГЭ) — 40\n3. Основы безопасности жизнедеятельности — 40 (дополнительное испытание в МГТУ)",
+        "spo": "1. Основы права — 45\n2. Русский язык — 40\n3. Основы безопасности жизнедеятельности — 40",
+        "entrance": "",
+        "duration": "Очная форма — 5 лет\nЗаочная форма — 5,5 лет",
+        "notes": ""
+      }
+    },
+    {
+      "id": "specld",
+      "name": "Лечебное дело",
+      "faculty": "Лечебный факультет",
+      "level": "Специалитет",
+      "image": "assets/program-specld.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/spec/31.05.01ld.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "31.05.01",
+        "year": "2026–2027",
+        "profile": "Лечебное дело",
+        "status": "",
+        "headers": [
+          "Специализация",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "Лечебное дело",
+            "79",
+            "8",
+            "8",
+            "110"
+          ],
+          [
+            "Лечебное дело с элементами английского языка",
+            "—",
+            "—",
+            "—",
+            "2 — граждане РФ; 20 — иностранные граждане"
+          ]
+        ],
+        "ege": "1. Биология — 40\n2. Химия — 40\n3. Русский язык — 40",
+        "spo": "1. Анатомия и физиология человека — 40\n2. Гигиена и экология человека — 40\n3. Русский язык — 40",
+        "entrance": "",
+        "duration": "Очная форма — 6 лет",
+        "notes": ""
+      }
+    },
+    {
+      "id": "specmedkib",
+      "name": "Медицинская кибернетика",
+      "faculty": "Лечебный факультет",
+      "level": "Специалитет",
+      "image": "assets/program-specmedkib.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/spec/30.05.03mk.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "30.05.03",
+        "year": "2026–2027",
+        "profile": "Медицинская информатика",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "—",
+            "—",
+            "—",
+            "10"
+          ]
+        ],
+        "ege": "1. Биология — 40\n2. Русский язык — 40\n3. На выбор: Химия — 40, Математика (профильный уровень) — 40, Информатика — 46, Физика — 41",
+        "spo": "1. Анатомия и физиология человека — 40\n2. Русский язык — 40\n3. Алгебра, геометрия и начала анализа — 40",
+        "entrance": "",
+        "duration": "Очная форма — 6 лет",
+        "notes": ""
+      }
+    },
+    {
+      "id": "specped",
+      "name": "Педиатрия",
+      "faculty": "Педиатрический факультет",
+      "level": "Специалитет",
+      "image": "assets/program-specped.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/spec/31.05.02pd.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "31.05.02",
+        "year": "2026–2027",
+        "profile": "Педиатрия",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "37",
+            "4",
+            "4",
+            "50"
+          ]
+        ],
+        "ege": "1. Биология — 40\n2. Химия — 40\n3. Русский язык — 40",
+        "spo": "1. Анатомия и физиология человека — 40\n2. Гигиена и экология человека — 40\n3. Русский язык — 40",
+        "entrance": "",
+        "duration": "Очная форма — 6 лет",
+        "notes": ""
+      }
+    },
+    {
+      "id": "specst",
+      "name": "Стоматология",
+      "faculty": "Стоматологический факультет",
+      "level": "Специалитет",
+      "image": "assets/program-specst.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/spec/31.05.03stm.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "31.05.03",
+        "year": "2026–2027",
+        "profile": "Стоматология",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "7",
+            "1",
+            "1",
+            "92"
+          ]
+        ],
+        "ege": "1. Биология — 40\n2. Химия — 40\n3. Русский язык — 40",
+        "spo": "1. Анатомия и физиология человека — 40\n2. Гигиена и экология человека — 40\n3. Русский язык — 40",
+        "entrance": "",
+        "duration": "Очная форма — 5 лет",
+        "notes": ""
+      }
+    },
+    {
+      "id": "specfarm",
+      "name": "Фармация",
+      "faculty": "Фармацевтический факультет",
+      "level": "Специалитет",
+      "image": "assets/program-specfarm.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/spec/33.05.01farm.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "33.05.01",
+        "year": "2026–2027",
+        "profile": "Фармация",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "Отдельная квота",
+          "Особая квота",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "43",
+            "5",
+            "5",
+            "15"
+          ]
+        ],
+        "ege": "1. Химия — 40\n2. Биология — 40\n3. Русский язык — 40",
+        "spo": "1. Гигиена и экология человека — 40\n2. Анатомия и физиология человека — 40\n3. Русский язык — 40",
+        "entrance": "",
+        "duration": "Очная форма — 5 лет",
+        "notes": ""
+      }
+    },
+    {
+      "id": "magstr",
+      "name": "Строительство",
+      "faculty": "Технологический факультет",
+      "level": "Магистратура",
+      "image": "assets/program-magstr.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/mag/08.04.01strmag.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "08.04.01",
+        "year": "2026–2027",
+        "profile": "Теория и проектирование зданий и сооружений",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "9",
+            "10"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "2",
+            "40"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Теория и проектирование зданий и сооружений (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magtd",
+      "name": "Товароведение",
+      "faculty": "Технологический факультет",
+      "level": "Магистратура",
+      "image": "assets/program-magtd.jpg",
+      "document": null,
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "38.04.07",
+        "year": "2026–2027",
+        "profile": "Товарный консалтинг и экспертиза",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "—",
+            "—"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "—",
+            "—"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Товароведение потребительских товаров (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magtmo",
+      "name": "Технологические машины и оборудование",
+      "faculty": "Технологический факультет",
+      "level": "Магистратура",
+      "image": "assets/program-magtmo.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/mag/15.04.02tmomag.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "15.04.02",
+        "year": "2026–2027",
+        "profile": "Машины и аппараты пищевых производств",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "6",
+            "5"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "4",
+            "5"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Технологические машины и оборудование (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magpps",
+      "name": "Продукты питания из растительного сырья",
+      "faculty": "Технологический факультет",
+      "level": "Магистратура",
+      "image": "assets/program-magpps.jpg",
+      "document": null,
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "19.04.02",
+        "year": "2026–2027",
+        "profile": "Технология хранения и переработки злаковых, крупяных продуктов, плодоовощной продукции и виноградарства",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "3",
+            "5"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "5",
+            "5"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Продукты питания из растительного сырья (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magpi",
+      "name": "Прикладная информатика",
+      "faculty": "Факультет информационных систем в экономике и юриспруденции",
+      "level": "Магистратура",
+      "image": "assets/program-magpi.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/mag/09.04.03pimag.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "09.04.03",
+        "year": "2026–2027",
+        "profile": "",
+        "status": "",
+        "headers": [
+          "Профиль",
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "Прикладная информатика в экономике",
+            "очная",
+            "7",
+            "5"
+          ],
+          [
+            "Прикладная информатика в экономике",
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "Прикладная информатика в экономике",
+            "заочная",
+            "2",
+            "10"
+          ],
+          [
+            "Машинное обучение и технологии больших данных",
+            "очная",
+            "8",
+            "5"
+          ],
+          [
+            "Машинное обучение и технологии больших данных",
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "Машинное обучение и технологии больших данных",
+            "заочная",
+            "—",
+            "—"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Оценка компетенций в области прикладной информатики (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magur",
+      "name": "Юриспруденция",
+      "faculty": "Факультет информационных систем в экономике и юриспруденции",
+      "level": "Магистратура",
+      "image": "assets/program-magur.jpg",
+      "document": null,
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "40.04.01",
+        "year": "2026–2027",
+        "profile": "Прикладная юриспруденция",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "—",
+            "15"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "—",
+            "45"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Юриспруденция (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "mageco",
+      "name": "Экономика",
+      "faculty": "Факультет экономики и управления",
+      "level": "Магистратура",
+      "image": "assets/program-mageco.jpg",
+      "document": null,
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "38.04.01",
+        "year": "2026–2027",
+        "profile": "Экономика фирмы и отраслевых рынков",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "—",
+            "5"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "—",
+            "10"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Экономика (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magmgn",
+      "name": "Менеджмент",
+      "faculty": "Факультет экономики и управления",
+      "level": "Магистратура",
+      "image": "assets/program-magmgn.jpg",
+      "document": null,
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "38.04.02",
+        "year": "2026–2027",
+        "profile": "Менеджмент и маркетинг",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "—",
+            "5"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "5"
+          ],
+          [
+            "заочная",
+            "—",
+            "5"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Менеджмент (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "maggmy",
+      "name": "Государственное и муниципальное управление",
+      "faculty": "Факультет экономики и управления",
+      "level": "Магистратура",
+      "image": "assets/program-maggmy.jpg",
+      "document": null,
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "38.04.04",
+        "year": "2026–2027",
+        "profile": "Государственное и муниципальное управление",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "—",
+            "5"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "5"
+          ],
+          [
+            "заочная",
+            "5",
+            "20"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Государственное и муниципальное управление (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magfik",
+      "name": "Финансы и кредит",
+      "faculty": "Факультет экономики и управления",
+      "level": "Магистратура",
+      "image": "assets/program-magfik.jpg",
+      "document": null,
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "38.04.08",
+        "year": "2026–2027",
+        "profile": "Искусственный интеллект в финансово-экономических системах",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "—",
+            "5"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "—",
+            "5"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Финансы и экономика (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "maggostdel",
+      "name": "Гостиничное дело",
+      "faculty": "Факультет экономики и управления",
+      "level": "Магистратура",
+      "image": "assets/program-maggostdel.jpg",
+      "document": null,
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "43.04.03",
+        "year": "2026–2027",
+        "profile": "Гостиничная деятельность",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "5",
+            "10"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "18",
+            "10"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Гостиничная деятельность (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magagro",
+      "name": "Агрономия",
+      "faculty": "Факультет аграрных технологий",
+      "level": "Магистратура",
+      "image": "assets/program-magagro.jpg",
+      "document": null,
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "35.04.04",
+        "year": "2026–2027",
+        "profile": "",
+        "status": "",
+        "headers": [
+          "Профиль",
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "Общее земледелие",
+            "очная",
+            "8",
+            "5"
+          ],
+          [
+            "Общее земледелие",
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "Общее земледелие",
+            "заочная",
+            "8",
+            "5"
+          ],
+          [
+            "Агробизнес",
+            "очная",
+            "—",
+            "—"
+          ],
+          [
+            "Агробизнес",
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "Агробизнес",
+            "заочная",
+            "—",
+            "—"
+          ],
+          [
+            "Цифровые агробиотехнологии",
+            "очная",
+            "8",
+            "5"
+          ],
+          [
+            "Цифровые агробиотехнологии",
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "Цифровые агробиотехнологии",
+            "заочная",
+            "7",
+            "5"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Основы агрономии (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magzemkad",
+      "name": "Землеустройство и кадастры",
+      "faculty": "Факультет аграрных технологий",
+      "level": "Магистратура",
+      "image": "assets/program-magzemkad.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/mag/21.04.02zymag.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "21.04.02",
+        "year": "2026–2027",
+        "profile": "Землеустройство",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "9",
+            "5"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "13",
+            "5"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Землеустройство (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magtpo",
+      "name": "Технология продукции и организация общественного питания",
+      "faculty": "Факультет аграрных технологий",
+      "level": "Магистратура",
+      "image": "assets/program-magtpo.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/mag/19.04.04%20topmag.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "19.04.04",
+        "year": "2026–2027",
+        "profile": "Технология продукции и организация общественного питания",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "3",
+            "5"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "6",
+            "5"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Технология продукции общественного питания (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magttp",
+      "name": "Технология транспортных процессов",
+      "faculty": "Инженерный факультет",
+      "level": "Магистратура",
+      "image": "assets/program-magttp.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/mag/23.04.01ttpmag.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "23.04.01",
+        "year": "2026–2027",
+        "profile": "Логистика на транспорте",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "—",
+            "—"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "—",
+            "5"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Логистика на транспорте (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magnd",
+      "name": "Нефтегазовое дело",
+      "faculty": "Инженерный факультет",
+      "level": "Магистратура",
+      "image": "assets/program-magnd.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/mag/21.04.01ndmag.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "21.04.01",
+        "year": "2026–2027",
+        "profile": "Трубопроводный транспорт углеводородов",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "10",
+            "5"
+          ],
+          [
+            "очно-заочная",
+            "11",
+            "20"
+          ],
+          [
+            "заочная",
+            "—",
+            "—"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Трубопроводный транспорт углеводородов (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magemk",
+      "name": "Эксплуатация транспортно-технологических машин и комплексов",
+      "faculty": "Инженерный факультет",
+      "level": "Магистратура",
+      "image": "assets/program-magemk.jpg",
+      "document": null,
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "23.04.03",
+        "year": "2026–2027",
+        "profile": "Автомобильный сервис",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "4",
+            "5"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "—",
+            "5"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Автомобильный сервис (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magland",
+      "name": "Ландшафтная архитектура",
+      "faculty": "Экологический факультет",
+      "level": "Магистратура",
+      "image": "assets/program-magland.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/mag/35.04.09landmag.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "35.04.09",
+        "year": "2026–2027",
+        "profile": "Ландшафтная урбанистика",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "8",
+            "5"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "8",
+            "5"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Строительство и содержание объектов ландшафтной архитектуры (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    },
+    {
+      "id": "magtechbez",
+      "name": "Техносферная безопасность",
+      "faculty": "Экологический факультет",
+      "level": "Магистратура",
+      "image": "assets/program-magtechbez.jpg",
+      "document": "https://2504.mkgtu.ru/upload/prog/mag/20.04.01tbmag.pdf",
+      "cost": "https://mkgtu.ru/sveden/paid_edu/",
+      "admission": {
+        "code": "20.04.01",
+        "year": "2026–2027",
+        "profile": "Обеспечение экологической безопасности",
+        "status": "",
+        "headers": [
+          "Форма обучения",
+          "Бюджет",
+          "По договору"
+        ],
+        "rows": [
+          [
+            "очная",
+            "3",
+            "5"
+          ],
+          [
+            "очно-заочная",
+            "—",
+            "—"
+          ],
+          [
+            "заочная",
+            "2",
+            "5"
+          ]
+        ],
+        "ege": "",
+        "spo": "",
+        "entrance": "Обеспечение экологической безопасности (минимальный балл: 40 из 100).",
+        "duration": "",
+        "notes": "Испытание проводится на русском языке в устной форме по билетам. Сдача — очно в университете или с использованием дистанционных технологий."
+      }
+    }
+  ],
+  "facts": [
+    "Всего 4388 место для приёма в 2026 году из них: · бюджетных мест - 1679 · коммерческих мест - 2709",
+    "Более 13 тысяч обучающихся",
+    "Более 30 тысяч выпускников",
+    "12 факультетов",
+    "Медицинский институт",
+    "Филиал в поселке Яблоновском",
+    "Политехнический колледж в г.Майкопе",
+    "Научная библиотека МГТУ",
+    "Военный учебный центр при МГТУ",
+    "НИИ сельского хозяйства",
+    "138 реализуемых основных образовательных программ",
+    "17 учебных корпусов",
+    "180 учебно-научных лабораторий",
+    "5 научно-образовательных центров",
+    "3 общежития в городе Майкопе",
+    "Автошкола , станция техобсуживания и ремонта автомобилей",
+    "5 спортивных площадок",
+    "1 здание спорткомплекса",
+    "2 спортивных зала",
+    "4 тренажерных зала ЛФК",
+    "4 уровня профессионального образования:",
+    "• среднее профессиональное образование",
+    "• высшее образование - бакалавриат",
+    "• высшее образование - специалитет, магистратура",
+    "• высшее образование - подготовка кадров высшей квалификации – ординатура, аспирантура",
+    "84% преподавателей с учёным степенями и званиями, более 30 визит-профессоров. Для чтения лекций приглашаются ведущие зарубежные учёные",
+    "Более 70% студентов учавствуют в выполнении НИОКР в научных центрах и лабораториях вуза",
+    "Более 150 программ дополнительного образования: ведущие программы IT-индустрии, фотостудия, авто- и мотошкола, иностранные языки",
+    "Более 60 млн. руб. ежегодных вложений в обновление материально- технической базы университета и открытие новых лабораторий",
+    "Более 3000 студентов, получающих социальную поддержку и материальную помощь ежегодно",
+    "16 видов стипендий",
+    "14 студенческих объединений",
+    "Более 200 работодателей",
+    "Более 50 стратегических предприятий-партнёров, включая ГК \"Росатом\"",
+    "Иностранные студенты из 40 стран мира",
+    "51 и более стран, с которыми реализуются программы по обмену",
+    "27 зарубежных вузов-партнёров"
+  ]
 }
