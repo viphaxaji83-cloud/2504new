@@ -4,10 +4,11 @@ window.MGTU_renderUniversity = function(facts) {
  const esc=MGTU_escape;
  const text=i=>String(facts[i]||'').replace(/учавствуют/g,'участвуют').replace(/учёным степенями/g,'учёными степенями').replace('4388 место','4388 мест').replace('техобсуживания','техобслуживания').replace('г.Майкопе','г. Майкопе').replace('Автошкола ,','Автошкола,').replace('материально- технической','материально-технической');
  const metric=(i,kind='')=>{
-  const source=text(i),m=source.match(/^(?:Более |Всего )?([\d\s]+(?:%| млн\.| тысяч)?)(.*)$/i);
+  const source=text(i),m=source.match(/^(?:Более |Всего )?(\d+(?:[ \u00a0]\d{3})*(?:[.,]\d+)?)(%)?(?:\s+(тысяч))?\s*(.*)$/i);
+  if(i===34){const country=source.match(/^Иностранные студенты из (\d+) (.+)$/);if(country)return `<article class="atlas-tile atlas-metric atlas-countries" data-fact-source="34"><strong><span class="atlas-number-value">${esc(country[1])}</span></strong><p>${esc(country[2])} представлены иностранными студентами</p></article>`;}
   if(!m)return `<article class="atlas-tile atlas-copy ${kind}" data-fact-source="${i}"><p>${esc(source)}</p></article>`;
-  const plus=/^Более /.test(source)||/^и более /.test(m[2].trim()),description=m[2].trim().replace(/^и более /,'');
-  return `<article class="atlas-tile atlas-metric ${kind}" data-fact-source="${i}"><strong>${esc(m[1].trim())}${plus?'<sup>+</sup>':''}</strong><p>${esc(description)}</p></article>`;
+  const more=/^Более /.test(source)||/^и более /.test(m[4].trim()),percent=!!m[2],description=m[4].trim().replace(/^и более /,''),number=m[3]?String(Number(m[1].replace(/\s/g,''))*1000):m[1],value=number.replace(/\B(?=(\d{3})+(?!\d))/g,' ')+(percent?'%':'');
+  return `<article class="atlas-tile atlas-metric ${kind}" data-fact-source="${i}"><strong>${more&&percent?'<span class="atlas-number-qualifier">Более</span>':''}<span class="atlas-number-value">${esc(value)}</span>${more&&!percent?'<span class="atlas-plus">+</span>':''}</strong><p>${esc(description)}</p></article>`;
  };
  const bundle=(title,indices,kind='')=>`<article class="atlas-tile atlas-bundle ${kind}" data-fact-source="${indices.join(',')}"><h3>${esc(title)}</h3><ul>${indices.map(i=>`<li>${esc(text(i).replace(/^•\s*/,''))}</li>`).join('')}</ul></article>`;
  const places=()=>{
@@ -24,7 +25,7 @@ window.MGTU_renderUniversity = function(facts) {
  ];
  if(facts.length>37)groups[0].html+=bundle('Ещё возможности',Array.from({length:facts.length-37},(_,i)=>37+i));
  const active=host.querySelector('[role="tab"][aria-selected="true"]')?.dataset.atlasTab||'education';
- host.innerHTML=`<div class="atlas-tabs" role="tablist" aria-label="Возможности МГТУ">${groups.map(g=>`<button role="tab" id="atlas-tab-${g.id}" aria-controls="atlas-panel-${g.id}" aria-selected="${g.id===active}" tabindex="${g.id===active?0:-1}" data-atlas-tab="${g.id}">${esc(g.label)}</button>`).join('')}</div>${groups.map(g=>`<div class="atlas-panel" role="tabpanel" id="atlas-panel-${g.id}" aria-labelledby="atlas-tab-${g.id}" ${g.id!==active?'hidden':''} tabindex="0"><div class="atlas-panel-title"><h3>${esc(g.title)}</h3><span aria-hidden="true">МГТУ</span></div><div class="atlas-grid atlas-${g.id}">${g.html}</div></div>`).join('')}`;
+ host.innerHTML=`<div class="atlas-tabs" role="tablist" aria-label="Возможности МГТУ">${groups.map(g=>`<button role="tab" id="atlas-tab-${g.id}" aria-controls="atlas-panel-${g.id}" aria-selected="${g.id===active}" tabindex="${g.id===active?0:-1}" data-atlas-tab="${g.id}">${esc(g.label)}</button>`).join('')}</div>${groups.map(g=>`<div class="atlas-panel" role="tabpanel" id="atlas-panel-${g.id}" aria-labelledby="atlas-tab-${g.id}" ${g.id!==active?'hidden':''} tabindex="0"><div class="atlas-panel-title"><h3>${esc(g.title)}</h3></div><div class="atlas-grid atlas-${g.id}">${g.html}</div></div>`).join('')}`;
  function choose(id,focus=false){host.querySelectorAll('[role="tab"]').forEach(b=>{const selected=b.dataset.atlasTab===id;b.setAttribute('aria-selected',String(selected));b.tabIndex=selected?0:-1;if(selected&&focus)b.focus();});host.querySelectorAll('[role="tabpanel"]').forEach(p=>p.hidden=p.id!=='atlas-panel-'+id);}
  host.onclick=e=>{const b=e.target.closest('[data-atlas-tab]');if(b)choose(b.dataset.atlasTab);};
  host.onkeydown=e=>{const b=e.target.closest('[data-atlas-tab]');if(!b||!['ArrowRight','ArrowLeft','Home','End'].includes(e.key))return;e.preventDefault();const idx=groups.findIndex(g=>g.id===b.dataset.atlasTab),next=e.key==='Home'?0:e.key==='End'?groups.length-1:(idx+(e.key==='ArrowRight'?1:-1)+groups.length)%groups.length;choose(groups[next].id,true);};

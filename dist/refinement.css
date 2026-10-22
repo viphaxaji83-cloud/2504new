@@ -80,3 +80,37 @@
 @media(max-width:420px){.discover-intro h2{font-size:34px}.discover-intro{display:block}.discover-intro>.button{margin-top:25px}.discovery-choice{padding:21px}.discovery-choice h3{font-size:23px;line-height:1.17;margin-top:100px}.discovery-choice p{font-size:11px}.discovery-choice .discovery-button{font-size:9px;padding:12px 10px}.discovery-people>div,.discovery-practice>div{left:17px;right:15px;bottom:20px}.discovery-photo h3{font-size:20px}.discovery-photo span{font-size:7px}.atlas-tile{padding:19px}.atlas-metric>strong{font-size:40px}.atlas-metric{min-height:205px}.atlas-metric p{font-size:10px}.atlas-community .atlas-metric:first-child>strong,.atlas-community .atlas-metric:nth-child(2)>strong{font-size:30px}.atlas-levels ol{grid-template-columns:1fr}.atlas-sports>div{grid-template-columns:1fr 1fr;gap:22px}.duration-grid{grid-template-columns:1fr 1fr}.duration-card{padding:19px}.duration-card>span{font-size:10px}.duration-card strong{font-size:35px}.duration-card b{font-size:12px}}
 @media(max-width:760px){.atlas-education .atlas-bundle{grid-column:span 2}}
 @media(max-width:760px){.atlas-tabs button{font-size:11px}.atlas-metric p,.atlas-bundle li,.atlas-levels li,.atlas-copy p{font-size:12px;line-height:1.7}.atlas-sports span{font-size:11px}.atlas-place-split{font-size:11px}}
+/* Compact statistics: values and descriptions form a single visual unit. */
+.atlas-grid{align-items:stretch}
+.atlas-grid .atlas-metric{min-height:0;justify-content:center;gap:16px;padding-top:28px;padding-bottom:28px}
+.atlas-grid .atlas-metric>strong{display:flex;align-items:center;gap:.065em;line-height:1;flex-wrap:nowrap;white-space:nowrap;margin:0;max-width:100%}
+.atlas-number-value{display:block}
+.atlas-plus{font-size:.43em;letter-spacing:0;line-height:1;flex:none}
+.atlas-number-qualifier{position:absolute;left:0;top:-19px;font-size:10px;line-height:1;letter-spacing:.02em;color:#53667c}
+.atlas-grid .atlas-metric>strong:has(.atlas-number-qualifier){margin-top:19px}
+.atlas-grid .atlas-metric>p{margin:0;line-height:1.7}
+.atlas-grid .atlas-metric.atlas-wide{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;align-content:center;gap:28px}
+.atlas-grid .atlas-metric.atlas-wide>strong{font-size:clamp(46px,5.3vw,68px)}
+.atlas-community,.atlas-world{grid-template-columns:repeat(6,minmax(0,1fr));gap:15px}
+.atlas-community>.atlas-tile,.atlas-world>.atlas-tile{grid-column:span 2;min-height:0}
+.atlas-community>.atlas-tile:nth-child(-n+2),.atlas-world>.atlas-tile:nth-child(-n+2){grid-column:span 3}
+.atlas-community .atlas-metric.atlas-wide,.atlas-world .atlas-metric.atlas-wide{display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+.atlas-community .atlas-metric:first-child>strong,.atlas-community .atlas-metric:nth-child(2)>strong{font-size:clamp(45px,5vw,64px)}
+.atlas-community .atlas-metric>strong,.atlas-world .atlas-metric>strong{font-size:clamp(46px,5.3vw,64px)}
+.atlas-community .atlas-metric>p,.atlas-world .atlas-metric>p{font-size:13px;max-width:350px}
+.atlas-community .atlas-support{background:#e9d8fd}
+.atlas-world .atlas-countries{background:#e1ebe7;border-color:#d3e2db}
+.atlas-world .atlas-countries>strong{color:#0f5132}
+.atlas-places{justify-content:center}
+.atlas-places>strong{margin-top:14px}
+.atlas-places>p{margin-top:12px}
+@media(max-width:1100px){.atlas-grid .atlas-metric{padding-top:25px;padding-bottom:25px;gap:14px}.atlas-community .atlas-metric>strong,.atlas-world .atlas-metric>strong{font-size:54px}.atlas-community .atlas-metric>p,.atlas-world .atlas-metric>p{font-size:12px}}
+@media(max-width:760px){.atlas-grid .atlas-metric{min-height:0;padding:23px 21px;gap:14px}.atlas-grid .atlas-metric.atlas-wide{gap:20px}.atlas-grid .atlas-metric.atlas-wide>strong{font-size:45px}.atlas-community,.atlas-world{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-community{grid-template-areas:'students students' 'graduates graduates' 'clubs scholarships' 'support support'}.atlas-community>.atlas-tile:nth-child(1){grid-area:students}.atlas-community>.atlas-tile:nth-child(2){grid-area:graduates}.atlas-community>.atlas-tile:nth-child(3){grid-area:clubs}.atlas-community>.atlas-tile:nth-child(4){grid-area:support}.atlas-community>.atlas-tile:nth-child(5){grid-area:scholarships}.atlas-community>.atlas-tile:nth-child(-n+2),.atlas-community .atlas-support{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:20px}.atlas-world{grid-template-areas:'employers employers' 'partners countries' 'exchange universities'}.atlas-world>.atlas-tile:nth-child(1){grid-area:employers;display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:24px}.atlas-world>.atlas-tile:nth-child(2){grid-area:partners}.atlas-world>.atlas-tile:nth-child(3){grid-area:countries}.atlas-world>.atlas-tile:nth-child(4){grid-area:exchange}.atlas-world>.atlas-tile:nth-child(5){grid-area:universities}.atlas-community .atlas-metric>strong,.atlas-community .atlas-metric:first-child>strong,.atlas-community .atlas-metric:nth-child(2)>strong,.atlas-world .atlas-metric>strong{font-size:42px}.atlas-community .atlas-metric>p,.atlas-world .atlas-metric>p{font-size:12px}.atlas-world .atlas-metric.atlas-wide{display:flex;align-items:flex-start}.atlas-science .atlas-metric:nth-child(3){min-height:0}}
+@media(max-width:420px){.atlas-grid .atlas-metric{padding:22px 18px}.atlas-community .atlas-metric>strong,.atlas-community .atlas-metric:first-child>strong,.atlas-community .atlas-metric:nth-child(2)>strong,.atlas-world .atlas-metric>strong{font-size:35px}.atlas-community>.atlas-tile:nth-child(-n+2),.atlas-community .atlas-support{gap:16px}.atlas-grid .atlas-metric.atlas-wide>strong{font-size:40px}.atlas-community .atlas-metric>p,.atlas-world .atlas-metric>p{font-size:11px}.atlas-number-qualifier{top:-17px;font-size:9px}}
+.atlas-grid .atlas-metric{justify-content:flex-start}
+.atlas-grid .atlas-metric>strong:has(.atlas-number-qualifier){margin-top:0}
+.atlas-community .atlas-metric.atlas-wide>strong,.atlas-world .atlas-metric.atlas-wide>strong{font-size:clamp(46px,5.3vw,64px)}
+@media(max-width:1100px){.atlas-community .atlas-metric.atlas-wide>strong,.atlas-world .atlas-metric.atlas-wide>strong{font-size:54px}}
+@media(max-width:760px){.atlas-community .atlas-metric.atlas-support{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:20px}.atlas-community .atlas-metric.atlas-wide>strong,.atlas-world .atlas-metric.atlas-wide>strong{font-size:42px}}
+@media(max-width:420px){.atlas-community .atlas-metric.atlas-support{gap:16px}.atlas-community .atlas-metric.atlas-wide>strong,.atlas-world .atlas-metric.atlas-wide>strong{font-size:35px}}
+.atlas-grid.atlas-community>.atlas-metric,.atlas-grid.atlas-world>.atlas-metric{min-height:0}
