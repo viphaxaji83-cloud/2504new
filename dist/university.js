@@ -8,7 +8,7 @@ window.MGTU_renderUniversity = function(facts) {
   if(i===34){const country=source.match(/^Иностранные студенты из (\d+) (.+)$/);if(country)return `<article class="atlas-tile atlas-metric atlas-countries" data-fact-source="34"><strong><span class="atlas-number-value">${esc(country[1])}</span></strong><p>${esc(country[2])} представлены иностранными студентами</p></article>`;}
   if(!m)return `<article class="atlas-tile atlas-copy ${kind}" data-fact-source="${i}"><p>${esc(source)}</p></article>`;
   const more=/^Более /.test(source)||/^и более /.test(m[4].trim()),percent=!!m[2],description=m[4].trim().replace(/^и более /,''),number=m[3]?String(Number(m[1].replace(/\s/g,''))*1000):m[1],value=number.replace(/\B(?=(\d{3})+(?!\d))/g,' ')+(percent?'%':'');
-  return `<article class="atlas-tile atlas-metric ${kind}" data-fact-source="${i}"><strong>${more&&percent?'<span class="atlas-number-qualifier">Более</span>':''}<span class="atlas-number-value">${esc(value)}</span>${more&&!percent?'<span class="atlas-plus">+</span>':''}</strong><p>${esc(description)}</p></article>`;
+  return `<article class="atlas-tile atlas-metric ${kind}" data-fact-source="${i}"><strong><span class="atlas-number-value">${esc(value)}</span>${more&&!percent?'<span class="atlas-plus">+</span>':''}</strong><p>${esc(description)}</p></article>`;
  };
  const bundle=(title,indices,kind='')=>`<article class="atlas-tile atlas-bundle ${kind}" data-fact-source="${indices.join(',')}"><h3>${esc(title)}</h3><ul>${indices.map(i=>`<li>${esc(text(i).replace(/^•\s*/,''))}</li>`).join('')}</ul></article>`;
  const places=()=>{

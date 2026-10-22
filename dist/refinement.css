@@ -86,8 +86,6 @@
 .atlas-grid .atlas-metric>strong{display:flex;align-items:center;gap:.065em;line-height:1;flex-wrap:nowrap;white-space:nowrap;margin:0;max-width:100%}
 .atlas-number-value{display:block}
 .atlas-plus{font-size:.43em;letter-spacing:0;line-height:1;flex:none}
-.atlas-number-qualifier{position:absolute;left:0;top:-19px;font-size:10px;line-height:1;letter-spacing:.02em;color:#53667c}
-.atlas-grid .atlas-metric>strong:has(.atlas-number-qualifier){margin-top:19px}
 .atlas-grid .atlas-metric>p{margin:0;line-height:1.7}
 .atlas-grid .atlas-metric.atlas-wide{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;align-content:center;gap:28px}
 .atlas-grid .atlas-metric.atlas-wide>strong{font-size:clamp(46px,5.3vw,68px)}
@@ -106,19 +104,14 @@
 .atlas-places>p{margin-top:12px}
 @media(max-width:1100px){.atlas-grid .atlas-metric{padding-top:25px;padding-bottom:25px;gap:14px}.atlas-community .atlas-metric>strong,.atlas-world .atlas-metric>strong{font-size:54px}.atlas-community .atlas-metric>p,.atlas-world .atlas-metric>p{font-size:12px}}
 @media(max-width:760px){.atlas-grid .atlas-metric{min-height:0;padding:23px 21px;gap:14px}.atlas-grid .atlas-metric.atlas-wide{gap:20px}.atlas-grid .atlas-metric.atlas-wide>strong{font-size:45px}.atlas-community,.atlas-world{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-community{grid-template-areas:'students students' 'graduates graduates' 'clubs scholarships' 'support support'}.atlas-community>.atlas-tile:nth-child(1){grid-area:students}.atlas-community>.atlas-tile:nth-child(2){grid-area:graduates}.atlas-community>.atlas-tile:nth-child(3){grid-area:clubs}.atlas-community>.atlas-tile:nth-child(4){grid-area:support}.atlas-community>.atlas-tile:nth-child(5){grid-area:scholarships}.atlas-community>.atlas-tile:nth-child(-n+2),.atlas-community .atlas-support{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:20px}.atlas-world{grid-template-areas:'employers employers' 'partners countries' 'exchange universities'}.atlas-world>.atlas-tile:nth-child(1){grid-area:employers;display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:24px}.atlas-world>.atlas-tile:nth-child(2){grid-area:partners}.atlas-world>.atlas-tile:nth-child(3){grid-area:countries}.atlas-world>.atlas-tile:nth-child(4){grid-area:exchange}.atlas-world>.atlas-tile:nth-child(5){grid-area:universities}.atlas-community .atlas-metric>strong,.atlas-community .atlas-metric:first-child>strong,.atlas-community .atlas-metric:nth-child(2)>strong,.atlas-world .atlas-metric>strong{font-size:42px}.atlas-community .atlas-metric>p,.atlas-world .atlas-metric>p{font-size:12px}.atlas-world .atlas-metric.atlas-wide{display:flex;align-items:flex-start}.atlas-science .atlas-metric:nth-child(3){min-height:0}}
-@media(max-width:420px){.atlas-grid .atlas-metric{padding:22px 18px}.atlas-community .atlas-metric>strong,.atlas-community .atlas-metric:first-child>strong,.atlas-community .atlas-metric:nth-child(2)>strong,.atlas-world .atlas-metric>strong{font-size:35px}.atlas-community>.atlas-tile:nth-child(-n+2),.atlas-community .atlas-support{gap:16px}.atlas-grid .atlas-metric.atlas-wide>strong{font-size:40px}.atlas-community .atlas-metric>p,.atlas-world .atlas-metric>p{font-size:11px}.atlas-number-qualifier{top:-17px;font-size:9px}}
+@media(max-width:420px){.atlas-grid .atlas-metric{padding:22px 18px}.atlas-community .atlas-metric>strong,.atlas-community .atlas-metric:first-child>strong,.atlas-community .atlas-metric:nth-child(2)>strong,.atlas-world .atlas-metric>strong{font-size:35px}.atlas-community>.atlas-tile:nth-child(-n+2),.atlas-community .atlas-support{gap:16px}.atlas-grid .atlas-metric.atlas-wide>strong{font-size:40px}.atlas-community .atlas-metric>p,.atlas-world .atlas-metric>p{font-size:11px}}
 .atlas-grid .atlas-metric{justify-content:flex-start}
-.atlas-grid .atlas-metric>strong:has(.atlas-number-qualifier){margin-top:0}
 .atlas-community .atlas-metric.atlas-wide>strong,.atlas-world .atlas-metric.atlas-wide>strong{font-size:clamp(46px,5.3vw,64px)}
 @media(max-width:1100px){.atlas-community .atlas-metric.atlas-wide>strong,.atlas-world .atlas-metric.atlas-wide>strong{font-size:54px}}
 @media(max-width:760px){.atlas-community .atlas-metric.atlas-support{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:20px}.atlas-community .atlas-metric.atlas-wide>strong,.atlas-world .atlas-metric.atlas-wide>strong{font-size:42px}}
 @media(max-width:420px){.atlas-community .atlas-metric.atlas-support{gap:16px}.atlas-community .atlas-metric.atlas-wide>strong,.atlas-world .atlas-metric.atlas-wide>strong{font-size:35px}}
 .atlas-grid.atlas-community>.atlas-metric,.atlas-grid.atlas-world>.atlas-metric{min-height:0}
-/* Optical alignment for the percentage callout and circular controls. */
-.atlas-grid .atlas-metric:has(.atlas-number-qualifier){justify-content:center;align-items:flex-start;text-align:left}
-.atlas-grid .atlas-metric>strong:has(.atlas-number-qualifier){flex-direction:column;align-items:flex-start;gap:11px;margin:0}
-.atlas-number-qualifier{position:static;font-size:12px;line-height:1.2;letter-spacing:.02em}
-.atlas-grid .atlas-metric:has(.atlas-number-qualifier)>p{max-width:270px}
+/* Optical alignment for circular controls. */
 .program-card:hover .program-symbol{transform:none}
 .program-symbol svg{display:block;overflow:visible}
 .card-hint:after,.compare-toggle:before{content:'';flex-shrink:0;box-sizing:border-box;background-repeat:no-repeat;background-position:center;background-size:12px 12px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%230b2a4a' stroke-width='1.35' stroke-linecap='round'%3E%3Cpath d='M8 3v10M3 8h10'/%3E%3C/svg%3E")}
