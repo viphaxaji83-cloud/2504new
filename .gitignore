@@ -5,6 +5,8 @@ extracted-bodies/
 extracted-tables/
 extraction-review.txt
 revise-*.py
+round5-edit.py
+news-source.html
 dist/qa-*.html
 screenshots/tables-*.png
 screenshots/verify-*.png
