@@ -10,3 +10,7 @@ news-source.html
 dist/qa-*.html
 screenshots/tables-*.png
 screenshots/verify-*.png
+.env
+.env.*
+!.env.example
+node_modules/

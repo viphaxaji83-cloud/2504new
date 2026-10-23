@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    image: mgtu-open-day:local
+    ports:
+      - "${HOST_IP:-127.0.0.1}:${HTTP_PORT:-4173}:8080"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=16m
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true

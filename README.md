@@ -4,6 +4,37 @@
 
 ## Запуск
 
+### Docker Compose
+
+Требуется Docker с Linux-контейнерами и Docker Compose. Из корня репозитория:
+
+```sh
+docker compose up -d --build
+```
+
+Сайт: http://localhost:4173/ · Редактор: http://localhost:4173/admin.html.
+
+```sh
+docker compose ps          # состояние, включая healthcheck
+docker compose logs -f    # журнал Nginx
+docker compose down       # остановка и удаление контейнера
+```
+
+Для другого порта или доступа по сети скопируйте `.env.example` в `.env` и измените `HTTP_PORT` и `HOST_IP`. После правок файлов сайта повторите `docker compose up -d --build`.
+
+Образ содержит весь сайт из `dist/`, фотографии, шрифты, данные направлений и редактор. Nginx работает от непривилегированного пользователя на порту 8080; Compose запускает контейнер с файловой системой только для чтения и временным `/tmp`. Проверка здоровья доступна по `/healthz`. Node.js внутри контейнера не требуется.
+
+Можно запустить и без Compose:
+
+```sh
+docker build -t mgtu-open-day:local .
+docker run --rm -p 127.0.0.1:4173:8080 mgtu-open-day:local
+```
+
+Данные редактора и сравнения остаются в localStorage браузера, привязанном к адресу сайта. Docker не добавляет серверное хранение или отправку заявок.
+
+### Без Docker
+
 `node serve.mjs` — сайт http://127.0.0.1:4173/ и редактор http://127.0.0.1:4173/admin.html.
 
 Исходники находятся в `dist/`; сборка и установка пакетов не требуются. `node --check dist/app.js`, `node --check dist/admin.js` — проверки синтаксиса.

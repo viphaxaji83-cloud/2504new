@@ -1,0 +1,7 @@
+**
+!Dockerfile
+!docker/
+!docker/nginx.conf
+!dist/
+!dist/**
+dist/qa-*.html
