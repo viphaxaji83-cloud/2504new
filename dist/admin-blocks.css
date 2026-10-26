@@ -4,7 +4,7 @@
 .admin-header .button{font-size:11px;min-height:40px}.draft-state{font-size:10px}.admin-breadcrumb{font-size:11px}
 .admin-main{padding:28px}.admin-title{margin-bottom:24px;align-items:center}.admin-title h1{font-size:30px;margin:5px 0 12px}.admin-title p{font-size:12px;line-height:1.7;max-width:650px}.admin-title .eyebrow{display:none}
 .editor-layout{grid-template-columns:minmax(340px,420px) minmax(360px,1fr);gap:24px}
-.preview-panel{top:104px}.preview-viewport{height:calc(100vh - 205px);min-height:440px;max-height:850px;border-radius:0 0 12px 12px}
+.preview-panel{position:sticky;top:104px}.preview-viewport{height:calc(100vh - 205px);min-height:440px;max-height:850px;border-radius:0 0 12px 12px}
 .preview-panel>p{font-size:10px;line-height:1.7}.preview-top{height:38px;font-size:10px}
 .pick-element{display:block;width:100%;padding:13px 16px;background:#e6eef7;color:#0b2a4a;font-size:11px;font-weight:600;border:1px solid #c8d5e1;border-top:0;text-align:center}
 .pick-element[aria-pressed=true]{background:#dcecff;color:#1555a2}.pick-element:hover{background:#cddff7}
