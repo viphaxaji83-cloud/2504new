@@ -2,6 +2,7 @@
   const layout = document.querySelector('.editor-layout');
   const divider = document.getElementById('paneDivider');
   const editor = document.getElementById('editorPanel');
+  const header = document.querySelector('.admin-header');
   const preferenceKey = 'mgtu-admin-pane-width';
   const saved = MGTU_read(preferenceKey, null);
   let desiredWidth = typeof saved === 'number' && Number.isFinite(saved) ? saved : null;
@@ -81,5 +82,8 @@
     lastLayoutWidth = layout.clientWidth;
     applyWidth();
   }).observe(layout);
+  new ResizeObserver(() => {
+    layout.style.setProperty('--admin-header-height', `${header.getBoundingClientRect().height}px`);
+  }).observe(header);
   applyWidth();
 })();

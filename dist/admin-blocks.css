@@ -33,8 +33,17 @@
 @media(max-width:760px){.admin-sidebar nav{display:grid;grid-template-columns:1fr 1fr;gap:6px}.admin-sidebar nav button{width:100%;min-height:38px;text-align:left;justify-content:flex-start;white-space:normal}}
 
 .admin-sidebar nav{margin-top:30px}
+.admin-header{height:auto;min-height:82px;flex-wrap:wrap}
+.admin-header>div:last-child{flex-wrap:wrap;gap:8px}
 .admin-header .button{justify-content:center;align-items:center;text-align:center;gap:0;height:40px;min-height:40px;padding:0 18px;line-height:1}
+.admin-header .button{white-space:nowrap;flex-shrink:0}
 .admin-header .button>.admin-action-label{display:block;font:inherit;line-height:1;transform:translateY(1px)}
+.program-editor-row>summary{gap:12px;align-items:center}
+.program-editor-row>summary>span:first-child{min-width:0;font-size:14px;font-weight:500;line-height:1.45;overflow-wrap:anywhere}
+.program-editor-row>summary>span:last-child{font-size:16px;line-height:1;flex-shrink:0}
+.program-editor-row>summary small{display:inline-block;font-size:10px;line-height:1.5;margin-top:5px}
+.preview-panel>.pick-element:first-child{border-top:1px solid #c8d5e1;border-radius:9px 9px 0 0}
+@media(min-width:761px){.preview-panel{top:calc(var(--admin-header-height,82px) + 22px)}}
 .pane-divider{position:relative;align-self:stretch;min-height:300px;cursor:col-resize;touch-action:none;outline-offset:-3px}
 .pane-divider::before{content:"";position:absolute;top:0;bottom:0;left:50%;width:1px;background:#d4deeb}
 .pane-divider::after{content:"";display:block;position:sticky;top:calc(50vh - 24px);width:4px;height:48px;margin:0 auto;background:#9aafc9;border-radius:4px;transition:background .15s}
