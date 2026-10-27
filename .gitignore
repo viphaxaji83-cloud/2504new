@@ -14,3 +14,8 @@ screenshots/verify-*.png
 .env.*
 !.env.example
 node_modules/
+runtime-data/
+.test-data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

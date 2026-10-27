@@ -5,7 +5,7 @@ window.MGTU_DEFAULTS = {
 };
 window.MGTU_read = (key,fallback) => { try {return JSON.parse(localStorage.getItem(key)) ?? fallback;} catch{return fallback;} };
 window.MGTU_write = (key,value) => {try {localStorage.setItem(key,JSON.stringify(value));return true;}catch{return false;}};
-window.MGTU_content = () => {const s=MGTU_read('mgtu-content',{});if(s.title==='Твоё завтра\nначинается\nздесь.')delete s.title;if(s.description==='Познакомься с университетом, найди своё направление и сделай первый шаг к большому будущему.')delete s.description;if(!s.brandVersion){for(const [key,old] of Object.entries({accent:'#d8fa69',secondary:'#b7b0f5',background:'#161c1b',font:'Manrope'})){if(s[key]===old)delete s[key];}}return {...MGTU_DEFAULTS,...s,sections:{...MGTU_DEFAULTS.sections,...s.sections},programs:{...s.programs},texts:{...MGTU_DEFAULTS.texts,...s.texts}};};
+window.MGTU_content = () => {const s=structuredClone(window.MGTU_publishedContent||{});if(s.title==='Твоё завтра\nначинается\nздесь.')delete s.title;if(s.description==='Познакомься с университетом, найди своё направление и сделай первый шаг к большому будущему.')delete s.description;if(!s.brandVersion){for(const [key,old] of Object.entries({accent:'#d8fa69',secondary:'#b7b0f5',background:'#161c1b',font:'Manrope'})){if(s[key]===old)delete s[key];}}return {...MGTU_DEFAULTS,...s,sections:{...MGTU_DEFAULTS.sections,...s.sections},programs:{...s.programs},texts:{...MGTU_DEFAULTS.texts,...s.texts}};};
 window.MGTU_PALETTES = {
  technology:{name:'Технологии',colors:['#0B2A4A','#1E3A8A','#3BB2F6','#A7C7FF','#E6EEF7']},
  medicine:{name:'Медицина',colors:['#0F766E','#14BBA6','#67E8F9','#A7F3D0','#E6FBF5']},
@@ -25,3 +25,8 @@ window.MGTU_theme = p => {
  return 'technology';
 };
 window.MGTU_escape = value => String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+window.MGTU_setPublished = value => {window.MGTU_publishedContent = value.content; window.MGTU_contentRevision = value.revision;};
+window.MGTU_ready = fetch('/api/content', {cache:'no-store',credentials:'same-origin'})
+ .then(async response => {if(!response.ok)throw Error('Сервер контента недоступен.');const value=await response.json();MGTU_setPublished(value);return value;})
+ .catch(error => {window.MGTU_loadError=error;return null;});

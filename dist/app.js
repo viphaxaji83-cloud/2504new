@@ -1,4 +1,5 @@
-(() => {
+(async () => {
+ await MGTU_ready;
  'use strict';
  const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)], esc=MGTU_escape;
  const modal=$('#modal'), modalContent=$('#modalContent');

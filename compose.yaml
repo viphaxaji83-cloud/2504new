@@ -3,7 +3,12 @@ services:
     build: .
     image: mgtu-open-day:local
     ports:
-      - "${HOST_IP:-127.0.0.1}:${HTTP_PORT:-4173}:8080"
+      - "${HOST_IP:-127.0.0.1}:${HTTP_PORT:-6065}:8080"
+    environment:
+      APP_ORIGIN: "${APP_ORIGIN:?Set APP_ORIGIN in .env, e.g. http://172.17.254.145:6065}"
+      COOKIE_SECURE: "${COOKIE_SECURE:-false}"
+    volumes:
+      - site-data:/app/runtime-data
     restart: unless-stopped
     read_only: true
     tmpfs:
@@ -12,3 +17,6 @@ services:
       - ALL
     security_opt:
       - no-new-privileges:true
+
+volumes:
+  site-data:
