@@ -1,7 +1,7 @@
 window.MGTU_DEFAULTS = {
  title: 'День открытых\nдверей в МГТУ', description:'Посмотри, как устроен университет, узнай о направлениях и задай вопросы о поступлении.',
  date:'Дата и время — скоро', place:'Майкоп · МГТУ',phone:'8 (8772) 52-30-08',email:'priemkom@mkgtu.ru',accent:'#e9d8fd',secondary:'#a7c7ff',background:'#0b2a4a',font:'Steppe',brandVersion:2,
- sections:{about:true,discover:true,programs:true,resources:true,faq:true}, programs:{}, texts:{aboutTitle:'Больше, чем учёба.',programsTitle:'Кем ты хочешь стать?',resourcesTitle:'Меньше вопросов. Больше ясности.'}
+ sections:{about:true,discover:true,programs:true,resources:true,faq:true}, programs:{}, texts:{aboutTitle:'Больше, чем учёба.',programsTitle:'Кем ты хочешь стать?',resourcesTitle:'Меньше вопросов. Больше ясности.',faqTitle:'Частые вопросы'}
 };
 window.MGTU_read = (key,fallback) => { try {return JSON.parse(localStorage.getItem(key)) ?? fallback;} catch{return fallback;} };
 window.MGTU_write = (key,value) => {try {localStorage.setItem(key,JSON.stringify(value));return true;}catch{return false;}};

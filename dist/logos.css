@@ -2,6 +2,7 @@
 .brand{gap:0;flex-shrink:0}
 .brand img{display:block;width:176px;height:auto;aspect-ratio:2001/227;max-width:none;object-fit:contain;object-position:center}
 .header.scrolled .brand img{width:160px;height:auto}
+.footer-main .brand{align-self:center}
 .footer-main .brand img{width:220px;height:auto}
 .admin-sidebar .brand{display:flex;justify-content:center;flex-shrink:0;padding:30px 12px;background:#0b2a4a;border-radius:12px;gap:0}
 .admin-sidebar .brand img{width:144px;max-width:100%;height:auto}

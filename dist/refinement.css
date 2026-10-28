@@ -15,9 +15,6 @@
 .guide-format{display:inline-flex;padding:7px 11px;border-radius:6px;font-size:10px;font-weight:600;letter-spacing:.08em}
 .guide-card{min-height:300px}
 .guide-card h3{font-size:27px}
-.faq-all-button,.faq-all-button:hover,.faq-all-button:active{box-shadow:none}
-.faq-all-button{transition:background .2s,border-color .2s}
-.faq-all-button:hover{transform:none;border-color:#91accd}
 .duration-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:14px}
 .duration-card{background:#e6eef9;border:1px solid #d4e1f2;border-radius:17px;padding:24px;position:relative;overflow:hidden}
 .duration-card:nth-child(2){background:#eee6f8;border-color:#e1d7ed}
