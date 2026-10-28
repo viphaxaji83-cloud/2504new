@@ -1,0 +1,18 @@
+/* Official white logo. Cover removes only the PNG's empty bottom margin. */
+.brand{gap:0;flex-shrink:0}
+.brand img{display:block;width:128px;height:64px;max-width:none;object-fit:cover;object-position:center top}
+.header.scrolled .brand img{width:112px;height:56px}
+.footer-main .brand img{width:164px;height:82px}
+.admin-sidebar .brand{display:flex;justify-content:center;flex-shrink:0;padding:12px;background:#0b2a4a;border-radius:12px;gap:0}
+.admin-sidebar .brand img{width:128px;height:64px}
+.login-card .brand{display:inline-flex;justify-content:center;padding:14px 20px;background:#0b2a4a;border-radius:12px;gap:0;margin-bottom:30px}
+.login-card .brand img{width:128px;height:64px}
+.admin-logo-sample{display:inline-flex;justify-content:center;padding:18px 24px;margin:20px 0;background:#0b2a4a;border-radius:12px}
+.admin-logo-sample img{width:164px;height:82px;object-fit:cover;object-position:center top}
+@media(max-width:1000px){.admin-sidebar .brand img{width:110px;height:55px}}
+@media(max-width:760px){
+ .header .brand img,.header.scrolled .brand img{width:104px;height:52px}
+ .admin-sidebar .brand{display:inline-flex;width:auto;padding:10px 14px}
+ .admin-sidebar .brand img{width:110px;height:55px}
+ .footer-main .brand img{width:144px;height:72px}
+}
