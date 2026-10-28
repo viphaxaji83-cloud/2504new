@@ -1,18 +1,19 @@
-/* Official white logo. Cover removes only the PNG's empty bottom margin. */
+/* Official horizontal white logo, with its original proportions and clear space. */
 .brand{gap:0;flex-shrink:0}
-.brand img{display:block;width:108px;height:54px;max-width:none;object-fit:cover;object-position:center top}
-.header.scrolled .brand img{width:96px;height:48px}
-.footer-main .brand img{width:140px;height:70px}
-.admin-sidebar .brand{display:flex;justify-content:center;flex-shrink:0;padding:17px;background:#0b2a4a;border-radius:12px;gap:0}
-.admin-sidebar .brand img{width:108px;height:54px}
-.login-card .brand{display:inline-flex;justify-content:center;padding:19px 30px;background:#0b2a4a;border-radius:12px;gap:0;margin-bottom:30px}
-.login-card .brand img{width:108px;height:54px}
+.brand img{display:block;width:176px;height:auto;aspect-ratio:2001/227;max-width:none;object-fit:contain;object-position:center}
+.header.scrolled .brand img{width:160px;height:auto}
+.footer-main .brand img{width:220px;height:auto}
+.admin-sidebar .brand{display:flex;justify-content:center;flex-shrink:0;padding:30px 12px;background:#0b2a4a;border-radius:12px;gap:0}
+.admin-sidebar .brand img{width:144px;max-width:100%;height:auto}
+.login-card .brand{display:inline-flex;justify-content:center;padding:24px;background:#0b2a4a;border-radius:12px;gap:0;margin-bottom:30px}
+.login-card .brand img{width:180px;height:auto}
 .admin-logo-sample{display:inline-flex;justify-content:center;padding:18px 24px;margin:20px 0;background:#0b2a4a;border-radius:12px}
-.admin-logo-sample img{width:140px;height:70px;object-fit:cover;object-position:center top}
-@media(max-width:1000px){.admin-sidebar .brand img{width:96px;height:48px}}
+.admin-logo-sample{max-width:100%}
+.admin-logo-sample img{width:220px;max-width:100%;min-width:0;height:auto;aspect-ratio:2001/227;object-fit:contain}
+@media(max-width:1000px){.admin-sidebar .brand img{width:126px;height:auto}}
 @media(max-width:760px){
- .header .brand img,.header.scrolled .brand img{width:88px;height:44px}
- .admin-sidebar .brand{display:inline-flex;width:auto;padding:14px 21px}
- .admin-sidebar .brand img{width:96px;height:48px}
- .footer-main .brand img{width:124px;height:62px}
+ .header .brand img,.header.scrolled .brand img{width:clamp(112px,36vw,144px);height:auto}
+ .admin-sidebar .brand{display:inline-flex;width:auto;padding:24px 18px}
+ .admin-sidebar .brand img{width:144px;height:auto}
+ .footer-main .brand img{width:190px;height:auto}
 }
