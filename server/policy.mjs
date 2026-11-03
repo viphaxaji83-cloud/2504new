@@ -37,7 +37,7 @@ export function canEditText({path, before, after}) {
   if (parts.length === 2 && parts[0] === 'texts' && textKeys.has(parts[1])) return true;
   if (/^blocks\.[a-z0-9_-]+\.elements\.[a-z0-9_-]+\.(text|placeholder|alt)$/.test(path)) return true;
   if (parts[0] !== 'programs' || !programIds.has(parts[1])) return false;
-  if (parts.length === 3 && ['name','faculty'].includes(parts[2])) return after !== undefined;
+  if (parts.length === 3 && ['name','faculty','description'].includes(parts[2])) return after !== undefined;
   if (parts[2] !== 'admission') return false;
   if (parts.length === 4 && admissions.has(parts[3])) return true;
   return typeof before === 'string' && typeof after === 'string' && (/^programs\.[a-z0-9_-]+\.admission\.rows\.\d+\.\d+$/.test(path) || /^programs\.[a-z0-9_-]+\.admission\.headers\.\d+$/.test(path));
@@ -74,8 +74,9 @@ export function validateContent(content) {
   if (!content.programs || Array.isArray(content.programs) || typeof content.programs !== 'object') fail(400, 'Некорректный каталог.');
   for (const [id,p] of Object.entries(content.programs)) {
     if (!programIds.has(id) || !p || Array.isArray(p) || typeof p !== 'object') fail(400, 'Неизвестное направление.');
-    for (const key of ['name','faculty','level','document','cost']) if (p[key] !== undefined && typeof p[key] !== 'string' && !(p[key] === null && ['document','cost'].includes(key))) fail(400, 'Некорректные данные направления.');
+    for (const key of ['name','faculty','description','level','document','cost']) if (p[key] !== undefined && typeof p[key] !== 'string' && !(p[key] === null && ['document','cost'].includes(key))) fail(400, 'Некорректные данные направления.');
     for (const key of ['document','cost']) if (p[key] && !/^https?:\/\//.test(p[key])) fail(400, 'Ссылка должна начинаться с https:// или http://.');
+    if (p.description !== undefined && p.description.length > 1500) fail(400, 'Описание направления: не более 1500 символов.');
     if (p.visible !== undefined && typeof p.visible !== 'boolean') fail(400, 'Некорректная видимость направления.');
     const a = p.admission;
     if (a) {

@@ -53,11 +53,21 @@ test('server enforces roles, content publication and account administration', as
     content.blocks.hero={elements:{register:{text:'Новый текст кнопки'}}};
     content.blocks['program-eco_tovaroved']={elements:{hint:{text:'Подробнее о направлении'}}};
     const id=Object.keys(content.programs).find(id=>content.programs[id].admission.rows.length);
+    content.programs[id].description='Краткое описание, опубликованное редактором.';
     content.programs[id].name='Новое название';content.programs[id].admission.rows[0][0]='Очная форма';
     const saved=await request('/api/content',{method:'PUT',session:editor,data:{revision:current.revision,content}});
     assert.equal(saved.status,200,JSON.stringify(saved.data));
+    assert.equal((await request('/api/content')).data.content.programs[id].description,content.programs[id].description);
     assert.equal((await request('/api/content')).data.content.title,content.title);
     assert.equal((await request('/api/content',{method:'PUT',session:admin,data:current})).status,409);
+  });
+  await t.test('program description rejects invalid types and excessive text',async()=>{
+    const current=(await request('/api/content')).data;
+    const id=Object.keys(current.content.programs)[0];
+    for(const value of [42,{},'x'.repeat(1501)]){
+      const content=structuredClone(current.content);content.programs[id].description=value;
+      assert.equal((await request('/api/content',{method:'PUT',session:admin,data:{revision:current.revision,content}})).status,400);
+    }
   });
   await t.test('forged requests cannot change styles, URLs, photos, visibility, rows or metadata',async()=>{
     const current=(await request('/api/content')).data;
