@@ -1,3 +1,4 @@
+import {applicationService} from './applications.mjs';
 import http from 'node:http';
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -12,9 +13,8 @@ function json(res, status, data, headers = {}) {
   res.writeHead(status, {'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store',...headers});
   res.end(JSON.stringify(data));
 }
-async function body(req) {
+async function body(req, max = 2 * 1024 * 1024) {
   if (!/^application\/json(?:;|$)/i.test(req.headers['content-type'] || '')) fail(415, 'Ожидается JSON.');
-  const max = 2 * 1024 * 1024;
   if (Number(req.headers['content-length']) > max) {req.resume(); fail(413, 'Слишком большой запрос.');}
   const text = await new Promise((resolve, reject) => {
     const chunks = []; let size = 0, exceeded = false;
@@ -28,11 +28,12 @@ async function body(req) {
   return value;
 }
 
-export async function createApp({dataDir, origin = process.env.APP_ORIGIN || '', secureCookies = process.env.COOKIE_SECURE === 'true' || origin.startsWith('https://'), sessionMs = SESSION_MS} = {}) {
+export async function createApp({dataDir, origin = process.env.APP_ORIGIN || '', secureCookies = process.env.COOKIE_SECURE === 'true' || origin.startsWith('https://'), sessionMs = SESSION_MS, mailOptions} = {}) {
   if (origin && new URL(origin).origin !== origin) throw Error('APP_ORIGIN должен содержать только протокол, хост и порт, без завершающего слеша.');
   if (process.env.NODE_ENV === 'production' && !origin) throw Error('Укажите APP_ORIGIN, например http://172.17.254.145:6065');
   const db = openStore(dataDir), root = path.join(projectRoot, 'dist');
   const dummyHash = await hashPassword(token());
+  const applications = applicationService(db, mailOptions);
   let loginJobs = 0;
   const cookie = (value, maxAge = sessionMs / 1000) => `mgtu_session=${value}; Path=/; HttpOnly; SameSite=Strict; Max-Age=${Math.floor(maxAge)}${secureCookies ? '; Secure' : ''}`;
   function session(req) {
@@ -100,10 +101,27 @@ export async function createApp({dataDir, origin = process.env.APP_ORIGIN || '',
         });
         return json(res, 200, {user: publicUser(current), csrf}, {'Set-Cookie': cookie(value)});
       }
+      if (pathname === '/api/applications' && method === 'POST') {
+        sameOrigin(req);
+        const result=applications.submit(await body(req,16384),req.socket.remoteAddress || 'unknown');
+        void applications.flush();
+        return json(res,201,{ok:true,...result});
+      }
       if (pathname.startsWith('/api/')) {
         const user = session(req);
         if (!user) fail(401, 'Сессия завершена. Войдите снова.');
         if (!['GET','HEAD'].includes(method)) {sameOrigin(req); if (!safeEqual(req.headers['x-csrf-token'], user.csrf)) fail(403, 'Обновите страницу и повторите действие.');}
+        if (pathname === '/api/applications' && method === 'GET') {
+          requireAdmin(user);
+          return json(res,200,applications.list(Object.fromEntries(url.searchParams)));
+        }
+        if (pathname.startsWith('/api/applications/') && method === 'PUT') {
+          requireAdmin(user);
+          const id=pathname.slice('/api/applications/'.length);
+          applications.update(id,await body(req)); audit(db,user.id,'application-update',id);
+          void applications.flush();
+          return json(res,200,{ok:true});
+        }
         if (pathname === '/api/logout' && method === 'POST') {
           db.prepare('DELETE FROM sessions WHERE token_hash=?').run(user.token_hash);
           return json(res, 200, {ok: true}, {'Set-Cookie': cookie('', 0)});
@@ -192,6 +210,6 @@ export async function createApp({dataDir, origin = process.env.APP_ORIGIN || '',
     }
   });
   server.headersTimeout = 15000; server.requestTimeout = 30000;
-  server.on('close', () => db.close());
-  return {server, db};
+  server.on('close', () => {void applications.stop().then(()=>db.close());});
+  return {server, db, applications};
 }
