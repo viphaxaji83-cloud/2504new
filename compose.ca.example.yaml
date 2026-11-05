@@ -1,0 +1,8 @@
+# Optional. Rename/copy to compose.override.yaml ONLY after obtaining the server's trusted CA certificate.
+# If an override file already exists, merge these settings into it; do not overwrite its other settings.
+services:
+  web:
+    environment:
+      NODE_EXTRA_CA_CERTS: /run/certs/abit-ca.pem
+    volumes:
+      - ./docker/abit-ca.pem:/run/certs/abit-ca.pem:ro
