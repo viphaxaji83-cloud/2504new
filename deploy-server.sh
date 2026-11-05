@@ -17,7 +17,7 @@ fi
 docker compose config --quiet
 
 # Keep the existing Compose project name and volume. Back up a running Node installation before rebuilding.
-backup_dir="../app_2504-backups"
+backup_dir="./backups"
 mkdir -p "$backup_dir"
 chmod 700 "$backup_dir"
 stamp="$(date +%Y%m%d-%H%M%S)"

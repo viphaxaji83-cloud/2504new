@@ -28,13 +28,13 @@ docker compose version
 
 ```sh
 cd /home/abitdod/app_2504
-mkdir -p ../app_2504-backups
-chmod 700 ../app_2504-backups
-tar --exclude='./mgtu-server-upload.zip' --exclude='./node_modules' --exclude='./runtime-data' --exclude='./.git' -czf "../app_2504-backups/files-$(date +%Y%m%d-%H%M%S).tar.gz" .
+mkdir -p ./backups
+chmod 700 ./backups
+tar --exclude='./backups' --exclude='./mgtu-server-upload.zip' --exclude='./node_modules' --exclude='./runtime-data' --exclude='./.git' -czf "./backups/files-$(date +%Y%m%d-%H%M%S).tar.gz" .
 unzip -o mgtu-server-upload.zip
 ```
 
-Старые файлы сохранятся в соседней папке `app_2504-backups`. Существующий `.env` останется: его нет в архиве. Если `unzip` отсутствует, попросите администратора установить его или распакуйте архив на компьютере и загрузите его **содержимое** в папку проекта, включая `.dockerignore` и `.env.example`.
+Старые файлы сохранятся в папке `backups` внутри проекта. Существующий `.env` останется: его нет в архиве. Если `unzip` отсутствует, попросите администратора установить его или распакуйте архив на компьютере и загрузите его **содержимое** в папку проекта, включая `.dockerignore` и `.env.example`.
 
 ## 4. Настроить адрес сайта
 
