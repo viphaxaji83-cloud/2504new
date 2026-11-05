@@ -9,18 +9,31 @@ docker info >/dev/null
 for file in Dockerfile compose.yaml package.json package-lock.json server/start.mjs dist/index.html; do
   test -f "$file" || { echo "Missing release file: $file"; exit 1; }
 done
-if [ ! -f .env ]; then
-  cp .env.example .env
-  chmod 600 .env
-  echo 'Created .env for http://172.17.254.145:6065. Existing .env files are never replaced.'
-fi
-docker compose config --quiet
-
-# Keep the existing Compose project name and volume. Back up a running Node installation before rebuilding.
+# Domain-specific release. Preserve every existing setting except the two public HTTPS settings.
 backup_dir="./backups"
 mkdir -p "$backup_dir"
 chmod 700 "$backup_dir"
 stamp="$(date +%Y%m%d-%H%M%S)"
+if [ -f .env ]; then
+  cp .env "$backup_dir/env-$stamp.backup"
+  chmod 600 "$backup_dir/env-$stamp.backup"
+else
+  cp .env.example .env
+fi
+env_tmp="$(mktemp ./.env.openday.XXXXXX)"
+chmod 600 "$env_tmp"
+awk '
+  { sub(/\r$/, "") }
+  /^[[:space:]]*(export[[:space:]]+)?(APP_ORIGIN|COOKIE_SECURE)[[:space:]]*=/ { next }
+  { print }
+  END { print "APP_ORIGIN=https://openday.mkgtu.ru"; print "COOKIE_SECURE=true" }
+' .env > "$env_tmp"
+mv "$env_tmp" .env
+chmod 600 .env
+echo 'Configured https://openday.mkgtu.ru. Other settings preserved; previous .env backed up.'
+docker compose config --quiet
+
+# Keep the existing Compose project name and volume. Back up a running Node installation before rebuilding.
 if [ -n "$(docker compose ps --status running -q web)" ]; then
   if docker compose exec -T web node --version >/dev/null 2>&1; then
     backup_path="$(docker compose exec -T web node server/backup.mjs)"
@@ -40,6 +53,6 @@ docker compose up -d --build
 docker compose ps
 # Check inside the container, so custom public addresses/bind IPs do not break this check.
 docker compose exec -T web node --input-type=module -e "for(let i=0;i<30;i++){try{const r=await fetch('http://127.0.0.1:8080/healthz',{signal:AbortSignal.timeout(2000)});if(r.ok){console.log(await r.text());process.exit(0)}}catch{}await new Promise(resolve=>setTimeout(resolve,1000))}console.error('Health check failed. Run: docker compose logs --tail=100 web');process.exit(1)"
-echo 'Deployment complete. Open http://172.17.254.145:6065/ (or the address in APP_ORIGIN).'
+echo 'Deployment complete. Open https://openday.mkgtu.ru/ and https://openday.mkgtu.ru/admin.html'
 echo 'First installation only: docker compose exec web node server/create-admin.mjs admin'
 echo 'If administrator accounts already exist, keep using them; do not reset them on every update.'

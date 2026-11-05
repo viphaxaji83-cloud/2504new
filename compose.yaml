@@ -5,7 +5,7 @@ services:
     ports:
       - "${HOST_IP:-127.0.0.1}:${HTTP_PORT:-6065}:8080"
     environment:
-      APP_ORIGIN: "${APP_ORIGIN:?Set APP_ORIGIN in .env, e.g. http://172.17.254.145:6065}"
+      APP_ORIGIN: "${APP_ORIGIN:?Set APP_ORIGIN in .env, e.g. https://openday.mkgtu.ru}"
       SMTP_HOST: "${SMTP_HOST:-}"
       SMTP_PORT: "${SMTP_PORT:-587}"
       SMTP_SECURE: "${SMTP_SECURE:-false}"
