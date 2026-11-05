@@ -54,12 +54,17 @@ test('server enforces roles, content publication and account administration', as
     content.blocks['program-eco_tovaroved']={elements:{hint:{text:'Подробнее о направлении'}}};
     const id=Object.keys(content.programs).find(id=>content.programs[id].admission.rows.length);
     content.programs[id].description='Краткое описание, опубликованное редактором.';
-    content.programs[id].name='Новое название';content.programs[id].admission.rows[0][0]='Очная форма';
+    content.programs[id].name='Новое название';
     const saved=await request('/api/content',{method:'PUT',session:editor,data:{revision:current.revision,content}});
     assert.equal(saved.status,200,JSON.stringify(saved.data));
     assert.equal((await request('/api/content')).data.content.programs[id].description,content.programs[id].description);
     assert.equal((await request('/api/content')).data.content.title,content.title);
     assert.equal((await request('/api/content',{method:'PUT',session:admin,data:current})).status,409);
+  });
+  await t.test('even administrator cannot manually change source-controlled admission fields',async()=>{
+    const current=(await request('/api/content')).data;
+    const content=structuredClone(current.content);content.programs.pi.admission.ege='Подмена баллов';
+    assert.equal((await request('/api/content',{method:'PUT',session:admin,data:{revision:current.revision,content}})).status,403);
   });
   await t.test('program description rejects invalid types and excessive text',async()=>{
     const current=(await request('/api/content')).data;

@@ -12,6 +12,7 @@
   };
   window.MGTU_canEditPath = path => {
     if (window.MGTU_currentUser?.role === 'admin') return true;
+    if(/^programs\.[^.]+\.(admission(?:\.|$)|document$|cost$|admissionSource(?:\.|$))/.test(path))return false;
     return /^(title|description|date|place|phone|email)$/.test(path) || /^texts\.[a-zA-Z]+$/.test(path) || /^blocks\.[a-z0-9_-]+\.elements\.[a-z0-9_-]+\.(text|alt|placeholder)$/.test(path) || /^programs\.[a-z0-9_-]+\.(name|faculty|description|admission\.(code|year|profile|status|ege|spo|entrance|duration|notes|headers\.\d+|rows\.\d+\.\d+))$/.test(path);
   };
   window.MGTU_adminReady = (async () => {

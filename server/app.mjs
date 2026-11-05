@@ -1,3 +1,4 @@
+import {admissionsService} from './admissions-sync.mjs';
 import {applicationService} from './applications.mjs';
 import http from 'node:http';
 import fs from 'node:fs/promises';
@@ -28,12 +29,13 @@ async function body(req, max = 2 * 1024 * 1024) {
   return value;
 }
 
-export async function createApp({dataDir, origin = process.env.APP_ORIGIN || '', secureCookies = process.env.COOKIE_SECURE === 'true' || origin.startsWith('https://'), sessionMs = SESSION_MS, mailOptions} = {}) {
+export async function createApp({dataDir, origin = process.env.APP_ORIGIN || '', secureCookies = process.env.COOKIE_SECURE === 'true' || origin.startsWith('https://'), sessionMs = SESSION_MS, mailOptions, admissionsOptions} = {}) {
   if (origin && new URL(origin).origin !== origin) throw Error('APP_ORIGIN должен содержать только протокол, хост и порт, без завершающего слеша.');
   if (process.env.NODE_ENV === 'production' && !origin) throw Error('Укажите APP_ORIGIN, например http://172.17.254.145:6065');
   const db = openStore(dataDir), root = path.join(projectRoot, 'dist');
   const dummyHash = await hashPassword(token());
   const applications = applicationService(db, mailOptions);
+  const admissions=admissionsService(db,admissionsOptions);
   let loginJobs = 0;
   const cookie = (value, maxAge = sessionMs / 1000) => `mgtu_session=${value}; Path=/; HttpOnly; SameSite=Strict; Max-Age=${Math.floor(maxAge)}${secureCookies ? '; Secure' : ''}`;
   function session(req) {
@@ -71,7 +73,7 @@ export async function createApp({dataDir, origin = process.env.APP_ORIGIN || '',
       if (pathname === '/healthz' && ['GET','HEAD'].includes(method)) {res.writeHead(200, {'Content-Type':'text/plain','Cache-Control':'no-store'}); return res.end('ok\n');}
       if (pathname === '/api/content' && method === 'GET') {
         const row = db.prepare('SELECT * FROM content WHERE id=1').get();
-        return json(res, 200, {content: JSON.parse(row.json), revision: row.revision});
+        return json(res, 200, {content: admissions.overlay(JSON.parse(row.json)), revision: row.revision, admissionsSync:admissions.status()});
       }
       if (pathname === '/api/session' && method === 'GET') {
         const user = session(req);
@@ -111,6 +113,9 @@ export async function createApp({dataDir, origin = process.env.APP_ORIGIN || '',
         const user = session(req);
         if (!user) fail(401, 'Сессия завершена. Войдите снова.');
         if (!['GET','HEAD'].includes(method)) {sameOrigin(req); if (!safeEqual(req.headers['x-csrf-token'], user.csrf)) fail(403, 'Обновите страницу и повторите действие.');}
+        if(pathname==='/api/admissions-sync'&&method==='POST'){
+          requireAdmin(user);return json(res,200,await admissions.sync());
+        }
         if (pathname === '/api/applications' && method === 'GET') {
           requireAdmin(user);
           return json(res,200,applications.list(Object.fromEntries(url.searchParams)));
@@ -141,13 +146,14 @@ export async function createApp({dataDir, origin = process.env.APP_ORIGIN || '',
             const actor = session(req); if (!actor) fail(401, 'Сессия завершена. Войдите снова.');
             const row = db.prepare('SELECT * FROM content WHERE id=1').get();
             if (!Number.isSafeInteger(input.revision) || input.revision !== row.revision) fail(409, 'Другой пользователь уже обновил сайт. Скопируйте свои правки и перезагрузите страницу.');
-            const changes = changedFields(JSON.parse(row.json), input.content);
+            const changes = changedFields(admissions.overlay(JSON.parse(row.json)), input.content);
+            admissions.assertUnlocked(changes);
             if (actor.role !== 'admin' && changes.some(change => !canEditText(change))) fail(403, 'Редактор может изменять только текст. Оформление, ссылки, фотографии и структура доступны администратору.');
             db.prepare('UPDATE content SET json=?,revision=revision+1,updated_at=?,updated_by=? WHERE id=1').run(JSON.stringify(input.content), Date.now(), user.id);
             audit(db, user.id, 'content-save');
           });
           const saved = db.prepare('SELECT json,revision FROM content WHERE id=1').get();
-          return json(res, 200, {content: JSON.parse(saved.json), revision:saved.revision});
+          return json(res, 200, {content: admissions.overlay(JSON.parse(saved.json)), revision:saved.revision,admissionsSync:admissions.status()});
         }
         if (pathname === '/api/users' || pathname.startsWith('/api/users/')) {
           requireAdmin(user);
@@ -210,6 +216,6 @@ export async function createApp({dataDir, origin = process.env.APP_ORIGIN || '',
     }
   });
   server.headersTimeout = 15000; server.requestTimeout = 30000;
-  server.on('close', () => {void applications.stop().then(()=>db.close());});
-  return {server, db, applications};
+  server.on('close', () => {void Promise.all([applications.stop(),admissions.stop()]).then(()=>db.close());});
+  return {server, db, applications, admissions};
 }

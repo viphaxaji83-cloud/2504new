@@ -26,7 +26,7 @@ window.MGTU_theme = p => {
 };
 window.MGTU_escape = value => String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-window.MGTU_setPublished = value => {window.MGTU_publishedContent = value.content; window.MGTU_contentRevision = value.revision;};
+window.MGTU_setPublished = value => {window.MGTU_admissionsSync=value.admissionsSync||null;window.MGTU_publishedContent = value.content; window.MGTU_contentRevision = value.revision;};
 window.MGTU_ready = fetch('/api/content', {cache:'no-store',credentials:'same-origin'})
  .then(async response => {if(!response.ok)throw Error('Сервер контента недоступен.');const value=await response.json();MGTU_setPublished(value);return value;})
  .catch(error => {window.MGTU_loadError=error;return null;});

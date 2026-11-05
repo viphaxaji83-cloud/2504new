@@ -1,0 +1,2525 @@
+[
+  {
+    "id": "bak_Химическая технология",
+    "code": "18.03.01",
+    "name": "Химическая технология",
+    "level": "bak",
+    "faculty": "Факультет аграрных технологий",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 23,
+    "paidPlaces": 35,
+    "required": [
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      }
+    ],
+    "profile": "Химическая технология синтетических биологически активных веществ, химико-фармацевтических препаратов и косметических средств.",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/18.03.01ht.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Технология продукции и организация общественного питания",
+    "code": "19.03.04",
+    "name": "Технология продукции и организация общественного питания",
+    "level": "bak",
+    "faculty": "Факультет аграрных технологий",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 26,
+    "paidPlaces": 14,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Биология",
+        "min": 40
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      }
+    ],
+    "profile": "Технология продуктов общественного питания.",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/19.03.04top.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Землеустройство и кадастры",
+    "code": "21.03.02",
+    "name": "Землеустройство и кадастры",
+    "level": "bak",
+    "faculty": "Факультет аграрных технологий",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 70,
+    "paidPlaces": 25,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "География",
+        "min": 40
+      }
+    ],
+    "profile": "Землеустройство",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/21.03.02zy.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Агрономия",
+    "code": "35.03.04",
+    "name": "Агрономия",
+    "level": "bak",
+    "faculty": "Факультет аграрных технологий",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 30,
+    "paidPlaces": 15,
+    "required": [
+      {
+        "name": "Биология",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "География",
+        "min": 40
+      },
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      }
+    ],
+    "profile": "Агрономия",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/35.03.04ag.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Технология производства и переработки сельскохозяйственной продукции",
+    "code": "35.03.07",
+    "name": "Технология производства и переработки сельскохозяйственной продукции",
+    "level": "bak",
+    "faculty": "Факультет аграрных технологий",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 30,
+    "paidPlaces": 10,
+    "required": [
+      {
+        "name": "Биология",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "География",
+        "min": 40
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      }
+    ],
+    "profile": "Хранение и переработка сельскохозяйственной продукции",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/35.03.07tp.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Зоотехния",
+    "code": "36.03.02",
+    "name": "Зоотехния",
+    "level": "bak",
+    "faculty": "Факультет аграрных технологий",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 45,
+    "paidPlaces": 10,
+    "required": [
+      {
+        "name": "Биология",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "Математика",
+        "min": 40
+      }
+    ],
+    "profile": "Технология производства продукции животноводства",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/36.03.02zt.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Строительство",
+    "code": "08.03.01",
+    "name": "Строительство",
+    "level": "bak",
+    "faculty": "Технологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 14,
+    "paidPlaces": 95,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      }
+    ],
+    "profile": "Промышленное и гражданское строительство",
+    "duration": "Очная форма — 4 года Очно-заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/08.03.01str.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Технологические машины и оборудование",
+    "code": "15.03.02",
+    "name": "Технологические машины и оборудование",
+    "level": "bak",
+    "faculty": "Технологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 25,
+    "paidPlaces": 15,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      }
+    ],
+    "profile": "Машины и аппараты пищевых производств",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/15.03.02tmo.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Продукты питания из растительного сырья",
+    "code": "19.03.02",
+    "name": "Продукты питания из растительного сырья",
+    "level": "bak",
+    "faculty": "Технологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 26,
+    "paidPlaces": 14,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Биология",
+        "min": 40
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      }
+    ],
+    "profile": "Технология бродильных производств и виноделие",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/19.03.02ppr.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Технология изделий лёгкой промышленности",
+    "code": "29.03.01",
+    "name": "Технология изделий лёгкой промышленности",
+    "level": "bak",
+    "faculty": "Технологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 24,
+    "paidPlaces": 10,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      }
+    ],
+    "profile": "Технология швейных изделий",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/29.03.01tsh.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Агроинженерия",
+    "code": "35.03.06",
+    "name": "Агроинженерия",
+    "level": "bak",
+    "faculty": "Технологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 28,
+    "paidPlaces": 10,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "География",
+        "min": 40
+      },
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "Биология",
+        "min": 40
+      }
+    ],
+    "profile": "Технологическое оборудование для хранения и переработки сельскохозяйственной продукции",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/35.03.06ai.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Стандартизация и метрология",
+    "code": "27.03.01",
+    "name": "Стандартизация и метрология",
+    "level": "bak",
+    "faculty": "Технологический факультет",
+    "active": false,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 0,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/29.03.01tsh.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Товароведение",
+    "code": "38.03.07",
+    "name": "Товароведение",
+    "level": "bak",
+    "faculty": "Технологический факультет",
+    "active": false,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Количество платных мест по всем формам обучения. Бюджетные места уточняются.",
+    "placesSources": [
+      "/files/451b19d05f412fa2"
+    ],
+    "paidPlaces": 0,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://mkgtu.ru/postuplenie/programs/",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Прикладная информатика",
+    "code": "09.03.03",
+    "name": "Прикладная информатика",
+    "level": "bak",
+    "faculty": "Факультет информационных систем в экономике и юриспруденции",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 42,
+    "paidPlaces": 18,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      }
+    ],
+    "profile": "Прикладная информатика в экономике",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/09.03.03pi.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Информационная безопасность",
+    "code": "10.03.01",
+    "name": "Информационная безопасность",
+    "level": "bak",
+    "faculty": "Факультет информационных систем в экономике и юриспруденции",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 16,
+    "paidPlaces": 29,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      }
+    ],
+    "profile": "Организация и технология защиты информации",
+    "duration": "Очная форма — 4 года Очно-заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/10.03.01bi.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Юриспруденция",
+    "code": "40.03.01",
+    "name": "Юриспруденция",
+    "level": "bak",
+    "faculty": "Факультет информационных систем в экономике и юриспруденции",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 67,
+    "required": [
+      {
+        "name": "Обществознание",
+        "min": 45
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "История",
+        "min": 40
+      },
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      }
+    ],
+    "profile": "",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/40.03.01ur.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Электроэнергетика и электротехника",
+    "code": "13.03.02",
+    "name": "Электроэнергетика и электротехника",
+    "level": "bak",
+    "faculty": "Инженерный факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 94,
+    "paidPlaces": 57,
+    "required": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      }
+    ],
+    "profile": "Электроэнергетические системы и сети",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/13.03.02et.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Нефтегазовое дело",
+    "code": "21.03.01",
+    "name": "Нефтегазовое дело",
+    "level": "bak",
+    "faculty": "Инженерный факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 27,
+    "paidPlaces": 68,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Информатика",
+        "min": 46
+      },
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "География",
+        "min": 40
+      }
+    ],
+    "profile": "Эксплуатация и обслуживание объектов транспорта и хранения нефти, газа и продуктов переработки",
+    "duration": "Очная форма — 4 года Очно-заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/21.03.01nd.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Технология транспортных процессов",
+    "code": "23.03.01",
+    "name": "Технология транспортных процессов",
+    "level": "bak",
+    "faculty": "Инженерный факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 7,
+    "paidPlaces": 28,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      }
+    ],
+    "profile": "Логистика на транспорте",
+    "duration": "Очная форма — 4 года Очно-заочная форма — 4,5 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/23.03.01ttp.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Эксплуатация транспортно-технологических машин и комплексов",
+    "code": "23.03.03",
+    "name": "Эксплуатация транспортно-технологических машин и комплексов",
+    "level": "bak",
+    "faculty": "Инженерный факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 8,
+    "paidPlaces": 27,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      }
+    ],
+    "profile": "Автомобильный сервис",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/23.03.03emk.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Техносферная безопасность",
+    "code": "20.03.01",
+    "name": "Техносферная безопасность",
+    "level": "bak",
+    "faculty": "Экологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 12,
+    "paidPlaces": 28,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      }
+    ],
+    "profile": "Обеспечение экологической безопасности",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/20.03.01tb.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Лесное дело",
+    "code": "35.03.01",
+    "name": "Лесное дело",
+    "level": "bak",
+    "faculty": "Экологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/451b19d05f412fa2"
+    ],
+    "paidPlaces": 10,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      },
+      {
+        "name": "География",
+        "min": 40
+      },
+      {
+        "name": "Биология",
+        "min": 40
+      }
+    ],
+    "profile": "Лесомелиорация ландшафтов и инженерная биология",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/35.03.01lh.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Реклама и связи с общественностью",
+    "code": "42.03.01",
+    "name": "Реклама и связи с общественностью",
+    "level": "bak",
+    "faculty": "Факультет экономики и управления",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 17,
+    "required": [
+      {
+        "name": "Обществознание",
+        "min": 45
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "История",
+        "min": 40
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      }
+    ],
+    "profile": "Реклама и связи с общественностью в коммерческой сфере",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/42.03.01rso.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Сервис",
+    "code": "43.03.01",
+    "name": "Сервис",
+    "level": "bak",
+    "faculty": "Факультет экономики и управления",
+    "active": false,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Количество платных мест по всем формам обучения. Бюджетные места уточняются.",
+    "placesSources": [
+      "/files/451b19d05f412fa2"
+    ],
+    "paidPlaces": 0,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/43.03.01sr.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Туризм",
+    "code": "43.03.02",
+    "name": "Туризм",
+    "level": "bak",
+    "faculty": "Факультет экономики и управления",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 16,
+    "paidPlaces": 25,
+    "required": [
+      {
+        "name": "История",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "География",
+        "min": 40
+      },
+      {
+        "name": "Обществознание",
+        "min": 45
+      }
+    ],
+    "profile": "Технология и организация туроператорских и турагентских услуг",
+    "duration": "Очная форма — 4 года Заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/43.03.02ty.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Инноватика",
+    "code": "27.03.05",
+    "name": "Инноватика",
+    "level": "bak",
+    "faculty": "Факультет экономики и управления",
+    "active": false,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 0,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://mkgtu.ru/postuplenie/programs/",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Экономика",
+    "code": "38.03.01",
+    "name": "Экономика",
+    "level": "bak",
+    "faculty": "Факультет экономики и управления",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 29,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Обществознание",
+        "min": 45
+      },
+      {
+        "name": "История",
+        "min": 40
+      },
+      {
+        "name": "География",
+        "min": 40
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      }
+    ],
+    "profile": "Финансы и кредит",
+    "duration": "Очная форма — 4 года Очно-заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/38.03.00mnog_kon%20econ_upr_eco.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Менеджмент",
+    "code": "38.03.02",
+    "name": "Менеджмент",
+    "level": "bak",
+    "faculty": "Факультет экономики и управления",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 16,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Информатика",
+        "min": 46
+      },
+      {
+        "name": "История",
+        "min": 40
+      },
+      {
+        "name": "Обществознание",
+        "min": 45
+      }
+    ],
+    "profile": "Менеджмент",
+    "duration": "Очно-заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/38.03.00mnog_kon%20econ_upr_men.pdf",
+    "source": "https://www.mkgtu.ru/upload/postuplenie_docs/abiturientu/bsm2026/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%B0_%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B_%D0%B1%D0%B0%D0%BA%D0%B0%D0%BB%D0%B0%D0%B2%D1%80%D0%B8%D0%B0%D1%82%D0%B0_%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%82%D0%B5%D1%82%D0%B0_%D0%B8_%D0%BC%D0%B0%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D1%83%D1%80%D1%8B._2026.pdf"
+  },
+  {
+    "id": "bak_Государственное и муниципальное управление",
+    "code": "38.03.04",
+    "name": "Государственное и муниципальное управление",
+    "level": "bak",
+    "faculty": "Факультет экономики и управления",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 9,
+    "paidPlaces": 29,
+    "required": [
+      {
+        "name": "Обществознание",
+        "min": 45
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "История",
+        "min": 40
+      },
+      {
+        "name": "Математика",
+        "min": 40
+      }
+    ],
+    "profile": "Государственное и муниципальное управление в социальной сфере",
+    "duration": "Очная форма — 4 года Очно-заочная форма — 4,5 года",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/bak/38.03.00mnog_kon%20econ_upr_gos.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "spec_Информационно-аналитические системы безопасности",
+    "code": "10.05.04",
+    "name": "Информационно-аналитические системы безопасности",
+    "level": "spec",
+    "faculty": "Факультет информационных систем в экономике и юриспруденции",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/0fa483c6d06279bc",
+      "/files/3b00c37d60a2a343"
+    ],
+    "budgetPlaces": 7,
+    "paidPlaces": 10,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      }
+    ],
+    "profile": "Информационная безопасность финансовых и экономических структур",
+    "duration": "Очная форма — 5,5 лет",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/spec/10.05.04ias.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Строительство",
+    "code": "08.04.01",
+    "name": "Строительство",
+    "level": "mag",
+    "faculty": "Технологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 11,
+    "paidPlaces": 50,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/mag/08.04.01strmag.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Товароведение",
+    "code": "38.04.07",
+    "name": "Товароведение",
+    "level": "mag",
+    "faculty": "Технологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 0,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://mkgtu.ru/postuplenie/programs/",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Технологические машины и оборудование",
+    "code": "15.04.02",
+    "name": "Технологические машины и оборудование",
+    "level": "mag",
+    "faculty": "Технологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 10,
+    "paidPlaces": 10,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/mag/15.04.02tmomag.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Продукты питания из растительного сырья",
+    "code": "19.04.02",
+    "name": "Продукты питания из растительного сырья",
+    "level": "mag",
+    "faculty": "Технологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 8,
+    "paidPlaces": 10,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://mkgtu.ru/postuplenie/programs/",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Прикладная информатика",
+    "code": "09.04.03",
+    "name": "Прикладная информатика",
+    "level": "mag",
+    "faculty": "Факультет информационных систем в экономике и юриспруденции",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 17,
+    "paidPlaces": 20,
+    "required": [],
+    "choice": [],
+    "profile": "Прикладная информатика в экономике; Машинное обучение и технологии больших данных",
+    "duration": "",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/mag/09.04.03pimag.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Юриспруденция",
+    "code": "40.04.01",
+    "name": "Юриспруденция",
+    "level": "mag",
+    "faculty": "Факультет информационных систем в экономике и юриспруденции",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 60,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://mkgtu.ru/postuplenie/programs/",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Экономика",
+    "code": "38.04.01",
+    "name": "Экономика",
+    "level": "mag",
+    "faculty": "Факультет экономики и управления",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 15,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://mkgtu.ru/postuplenie/programs/",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Менеджмент",
+    "code": "38.04.02",
+    "name": "Менеджмент",
+    "level": "mag",
+    "faculty": "Факультет экономики и управления",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 15,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://mkgtu.ru/postuplenie/programs/",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Государственное и муниципальное управление",
+    "code": "38.04.04",
+    "name": "Государственное и муниципальное управление",
+    "level": "mag",
+    "faculty": "Факультет экономики и управления",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 5,
+    "paidPlaces": 30,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://mkgtu.ru/postuplenie/programs/",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Финансы и кредит",
+    "code": "38.04.08",
+    "name": "Финансы и кредит",
+    "level": "mag",
+    "faculty": "Факультет экономики и управления",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 10,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://mkgtu.ru/postuplenie/programs/",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Гостиничное дело",
+    "code": "43.04.03",
+    "name": "Гостиничное дело",
+    "level": "mag",
+    "faculty": "Факультет экономики и управления",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 23,
+    "paidPlaces": 20,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://mkgtu.ru/postuplenie/programs/",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Агрономия",
+    "code": "35.04.04",
+    "name": "Агрономия",
+    "level": "mag",
+    "faculty": "Факультет аграрных технологий",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 15,
+    "paidPlaces": 10,
+    "required": [],
+    "choice": [],
+    "profile": "Цифровые агробиотехнологии",
+    "duration": "",
+    "extra": "",
+    "url": "https://mkgtu.ru/postuplenie/programs/",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Землеустройство и кадастры",
+    "code": "21.04.02",
+    "name": "Землеустройство и кадастры",
+    "level": "mag",
+    "faculty": "Факультет аграрных технологий",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 22,
+    "paidPlaces": 10,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/mag/21.04.02zymag.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Технология продукции и организация общественного питания",
+    "code": "19.04.04",
+    "name": "Технология продукции и организация общественного питания",
+    "level": "mag",
+    "faculty": "Факультет аграрных технологий",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 9,
+    "paidPlaces": 10,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/mag/19.04.04%20topmag.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Технология транспортных процессов",
+    "code": "23.04.01",
+    "name": "Технология транспортных процессов",
+    "level": "mag",
+    "faculty": "Инженерный факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 5,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/mag/23.04.01ttpmag.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Нефтегазовое дело",
+    "code": "21.04.01",
+    "name": "Нефтегазовое дело",
+    "level": "mag",
+    "faculty": "Инженерный факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 21,
+    "paidPlaces": 25,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/mag/21.04.01ndmag.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Эксплуатация транспортно-технологических машин и комплексов",
+    "code": "23.04.03",
+    "name": "Эксплуатация транспортно-технологических машин и комплексов",
+    "level": "mag",
+    "faculty": "Инженерный факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 4,
+    "paidPlaces": 10,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/#",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Ландшафтная архитектура",
+    "code": "35.04.09",
+    "name": "Ландшафтная архитектура",
+    "level": "mag",
+    "faculty": "Экологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 16,
+    "paidPlaces": 10,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/mag/35.04.09landmag.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "mag_Техносферная безопасность",
+    "code": "20.04.01",
+    "name": "Техносферная безопасность",
+    "level": "mag",
+    "faculty": "Экологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/6a5e5acab125c15c",
+      "/files/df1c4f906dffdf22"
+    ],
+    "budgetPlaces": 5,
+    "paidPlaces": 10,
+    "required": [],
+    "choice": [],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/mag/20.04.01tbmag.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "spec_Пожарная безопасность",
+    "code": "20.05.01",
+    "name": "Пожарная безопасность",
+    "level": "spec",
+    "faculty": "Экологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/0fa483c6d06279bc",
+      "/files/3b00c37d60a2a343"
+    ],
+    "budgetPlaces": 18,
+    "paidPlaces": 13,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      }
+    ],
+    "profile": "Пожарная безопасность",
+    "duration": "Очная форма — 5 лет Очно-заочная форма — 5,5 лет Заочная форма — 5,5 лет",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/spec/25.05.01pb.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "spec_Таможенное дело",
+    "code": "38.05.02",
+    "name": "Таможенное дело",
+    "level": "spec",
+    "faculty": "Технологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/0fa483c6d06279bc",
+      "/files/3b00c37d60a2a343"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 32,
+    "required": [
+      {
+        "name": "Обществознание",
+        "min": 45
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [],
+    "profile": "Товароведение и экспертиза в таможенном деле",
+    "duration": "Очная форма — 5 лет Заочная форма — 5,5 лет",
+    "extra": "Основы безопасности жизнедеятельности — внутреннее испытание, минимум 40 баллов",
+    "url": "https://2504.mkgtu.ru/upload/prog/spec/38.05.02td.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "spec_Лечебное дело",
+    "code": "31.05.01",
+    "name": "Лечебное дело",
+    "level": "spec",
+    "faculty": "Лечебный факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/0fa483c6d06279bc",
+      "/files/3b00c37d60a2a343"
+    ],
+    "budgetPlaces": 79,
+    "paidPlaces": 132,
+    "required": [
+      {
+        "name": "Биология",
+        "min": 40
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [],
+    "profile": "Лечебное дело; лечебное дело с элементами английского языка",
+    "duration": "Очная форма — 6 лет",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/spec/31.05.01ld.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "spec_Медицинская кибернетика",
+    "code": "30.05.03",
+    "name": "Медицинская кибернетика",
+    "level": "spec",
+    "faculty": "Лечебный факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/0fa483c6d06279bc",
+      "/files/3b00c37d60a2a343"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 10,
+    "required": [
+      {
+        "name": "Биология",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      },
+      {
+        "name": "Физика",
+        "min": 41
+      }
+    ],
+    "profile": "Медицинская информатика",
+    "duration": "Очная форма — 6 лет",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/spec/30.05.03mk.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "spec_Педиатрия",
+    "code": "31.05.02",
+    "name": "Педиатрия",
+    "level": "spec",
+    "faculty": "Педиатрический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/0fa483c6d06279bc",
+      "/files/3b00c37d60a2a343"
+    ],
+    "budgetPlaces": 37,
+    "paidPlaces": 50,
+    "required": [
+      {
+        "name": "Биология",
+        "min": 40
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [],
+    "profile": "Педиатрия",
+    "duration": "Очная форма — 6 лет",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/spec/31.05.02pd.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "spec_Стоматология",
+    "code": "31.05.03",
+    "name": "Стоматология",
+    "level": "spec",
+    "faculty": "Стоматологический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/0fa483c6d06279bc",
+      "/files/3b00c37d60a2a343"
+    ],
+    "budgetPlaces": 7,
+    "paidPlaces": 92,
+    "required": [
+      {
+        "name": "Биология",
+        "min": 40
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [],
+    "profile": "Стоматология",
+    "duration": "Очная форма — 5 лет",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/spec/31.05.03stm.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "spec_Фармация",
+    "code": "33.05.01",
+    "name": "Фармация",
+    "level": "spec",
+    "faculty": "Фармацевтический факультет",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/0fa483c6d06279bc",
+      "/files/3b00c37d60a2a343"
+    ],
+    "budgetPlaces": 43,
+    "paidPlaces": 15,
+    "required": [
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "Биология",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [],
+    "profile": "Фармация",
+    "duration": "Очная форма — 5 лет",
+    "extra": "",
+    "url": "https://2504.mkgtu.ru/upload/prog/spec/33.05.01farm.pdf",
+    "source": "https://mkgtu.ru/postuplenie/programs/"
+  },
+  {
+    "id": "bak_Ландшафтная архитектура",
+    "code": "35.03.10",
+    "name": "Ландшафтная архитектура",
+    "level": "bak",
+    "faculty": "Экологический факультет",
+    "active": true,
+    "confirmed": false,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 30,
+    "paidPlaces": 20,
+    "required": [
+      {
+        "name": "Математика",
+        "min": 40
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "Биология",
+        "min": 40
+      },
+      {
+        "name": "Физика",
+        "min": 41
+      },
+      {
+        "name": "Химия",
+        "min": 40
+      },
+      {
+        "name": "Информатика",
+        "min": 46
+      },
+      {
+        "name": "География",
+        "min": 40
+      }
+    ],
+    "profile": "",
+    "duration": "",
+    "extra": "",
+    "url": "https://mkgtu.ru/postuplenie/programs/",
+    "source": "https://www.mkgtu.ru/upload/postuplenie_docs/abiturientu/bsm2026/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%B0_%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B_%D0%B1%D0%B0%D0%BA%D0%B0%D0%BB%D0%B0%D0%B2%D1%80%D0%B8%D0%B0%D1%82%D0%B0_%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%82%D0%B5%D1%82%D0%B0_%D0%B8_%D0%BC%D0%B0%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D1%83%D1%80%D1%8B._2026.pdf"
+  },
+  {
+    "id": "bak_Гостиничное дело",
+    "code": "43.03.03",
+    "name": "Гостиничное дело",
+    "level": "bak",
+    "faculty": "Факультет экономики и управления",
+    "active": true,
+    "confirmed": true,
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/8abb89705590b738",
+      "/files/451b19d05f412fa2"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 25,
+    "required": [
+      {
+        "name": "Обществознание",
+        "min": 45
+      },
+      {
+        "name": "Русский язык",
+        "min": 40
+      }
+    ],
+    "choice": [
+      {
+        "name": "История",
+        "min": 40
+      },
+      {
+        "name": "География",
+        "min": 40
+      }
+    ],
+    "profile": "Гостиничная деятельность",
+    "duration": "Очная форма — 4 года; заочная — 4,5 года",
+    "extra": "",
+    "url": "https://mkgtu.ru/postuplenie/programs/",
+    "source": "https://www.mkgtu.ru/upload/postuplenie_docs/abiturientu/bsm2026/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%B0_%D0%BD%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B_%D0%B1%D0%B0%D0%BA%D0%B0%D0%BB%D0%B0%D0%B2%D1%80%D0%B8%D0%B0%D1%82%D0%B0_%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%82%D0%B5%D1%82%D0%B0_%D0%B8_%D0%BC%D0%B0%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D1%83%D1%80%D1%8B._2026.pdf"
+  },
+  {
+    "id": "branch-9f234398d99a",
+    "code": "21.03.01",
+    "name": "Нефтегазовое дело",
+    "level": "bak",
+    "faculty": "Филиал МГТУ в пос. Яблоновском",
+    "active": true,
+    "confirmed": false,
+    "location": "пос. Яблоновский",
+    "studyForms": [
+      "Заочная",
+      "Очно-заочная",
+      "Очная"
+    ],
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/61f2fb347bd0a706",
+      "/files/773625ac6618ae48"
+    ],
+    "budgetPlaces": 10,
+    "paidPlaces": 90,
+    "required": [],
+    "choice": [],
+    "profile": "Эксплуатация и обслуживание объектов транспорта и хранения нефти, газа и продуктов переработки",
+    "duration": "",
+    "extra": "Условия и наличие набора уточняются по правилам приёма филиала. Минимальные баллы необходимо подтвердить в приёмной комиссии.",
+    "url": "https://mkgtu.ru/vikon/sveden/education/programs/ekspluataciya-i-obslughivanie-obyektov-transporta-i-hraneniya-nefti-gaza-i-produktov-pererabo_op0116.html",
+    "source": "https://mkgtu.ru/postuplenie/priemnaya-kampaniya/bakalavriat-spetsialitet-magistratura/",
+    "curriculum": {
+      "sourceUrl": "https://mkgtu.ru/vikon/sveden/education/programs/ekspluataciya-i-obslughivanie-obyektov-transporta-i-hraneniya-nefti-gaza-i-produktov-pererabo_op0116.html",
+      "documents": [
+        {
+          "id": "branch-9f234398d99a-plan-0",
+          "title": "ф УП 21.03.01 НД ЗФО 2026",
+          "year": 2026,
+          "form": "Заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/zil/f_UP_21.03.01_ND_ZFO_2026.pdf"
+        },
+        {
+          "id": "branch-9f234398d99a-plan-1",
+          "title": "ф УП 21.03.01 НД ОЗФО 2026",
+          "year": 2026,
+          "form": "Очно-заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/eit/f_UP_21.03.01_ND_OZFO_2026.pdf"
+        },
+        {
+          "id": "branch-9f234398d99a-plan-2",
+          "title": "ф УП 21.03.01 НД ОФО 2026",
+          "year": 2026,
+          "form": "Очная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/auf/f_UP_21.03.01_ND_OFO_2026.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "id": "branch-2cc6ce89850f",
+    "code": "21.03.02",
+    "name": "Землеустройство и кадастры",
+    "level": "bak",
+    "faculty": "Филиал МГТУ в пос. Яблоновском",
+    "active": true,
+    "confirmed": false,
+    "location": "пос. Яблоновский",
+    "studyForms": [
+      "Заочная",
+      "Очно-заочная",
+      "Очная"
+    ],
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/61f2fb347bd0a706",
+      "/files/773625ac6618ae48"
+    ],
+    "budgetPlaces": 28,
+    "paidPlaces": 32,
+    "required": [],
+    "choice": [],
+    "profile": "Землеустройство",
+    "duration": "",
+    "extra": "Условия и наличие набора уточняются по правилам приёма филиала. Минимальные баллы необходимо подтвердить в приёмной комиссии.",
+    "url": "https://mkgtu.ru/vikon/sveden/education/programs/zemleustroystvo-filial-21.03.02.html",
+    "source": "https://mkgtu.ru/postuplenie/priemnaya-kampaniya/bakalavriat-spetsialitet-magistratura/",
+    "curriculum": {
+      "sourceUrl": "https://mkgtu.ru/vikon/sveden/education/programs/zemleustroystvo-filial-21.03.02.html",
+      "documents": [
+        {
+          "id": "branch-2cc6ce89850f-plan-0",
+          "title": "ф УП 21.03.02 ЗУ ЗФО 2026",
+          "year": 2026,
+          "form": "Заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/ziu/f_UP_21.03.02_ZU_ZFO_2026.pdf"
+        },
+        {
+          "id": "branch-2cc6ce89850f-plan-1",
+          "title": "ф УП 21.03.02 ЗУ ОЗФО 2026",
+          "year": 2026,
+          "form": "Очно-заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/zip/f_UP_21.03.02_ZU_OZFO_2026.pdf"
+        },
+        {
+          "id": "branch-2cc6ce89850f-plan-2",
+          "title": "ф УП 21.03.02 ЗУ ОФО 2026",
+          "year": 2026,
+          "form": "Очная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/aiy/f_UP_21.03.02_ZU_OFO_2026.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "id": "branch-869f339952cd",
+    "code": "23.03.01",
+    "name": "Технология транспортных процессов",
+    "level": "bak",
+    "faculty": "Филиал МГТУ в пос. Яблоновском",
+    "active": true,
+    "confirmed": false,
+    "location": "пос. Яблоновский",
+    "studyForms": [
+      "Заочная",
+      "Очно-заочная",
+      "Очная"
+    ],
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/61f2fb347bd0a706",
+      "/files/773625ac6618ae48"
+    ],
+    "budgetPlaces": 13,
+    "paidPlaces": 35,
+    "required": [],
+    "choice": [],
+    "profile": "Логистика на транспорте",
+    "duration": "",
+    "extra": "Условия и наличие набора уточняются по правилам приёма филиала. Минимальные баллы необходимо подтвердить в приёмной комиссии.",
+    "url": "https://mkgtu.ru/vikon/sveden/education/programs/logistika-na-transporte-filial-23.03.01.html",
+    "source": "https://mkgtu.ru/postuplenie/priemnaya-kampaniya/bakalavriat-spetsialitet-magistratura/",
+    "curriculum": {
+      "sourceUrl": "https://mkgtu.ru/vikon/sveden/education/programs/logistika-na-transporte-filial-23.03.01.html",
+      "documents": [
+        {
+          "id": "branch-869f339952cd-plan-0",
+          "title": "ф УП 23.03.01 ТТП ЗФО 2026",
+          "year": 2026,
+          "form": "Заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/aih/f_UP_23.03.01_TTP_ZFO_2026.pdf"
+        },
+        {
+          "id": "branch-869f339952cd-plan-1",
+          "title": "ф УП 23.03.01 ТТП ОЗФО 2026",
+          "year": 2026,
+          "form": "Очно-заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/riz/f_UP_23.03.01_TTP_OZFO_2026.pdf"
+        },
+        {
+          "id": "branch-869f339952cd-plan-2",
+          "title": "ф УП 23.03.01 ТТП ОФО 2026",
+          "year": 2026,
+          "form": "Очная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/rip/f_UP_23.03.01_TTP_OFO_2026.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "id": "branch-384ebac27b51",
+    "code": "38.03.04",
+    "name": "Государственное и муниципальное управление",
+    "level": "bak",
+    "faculty": "Филиал МГТУ в пос. Яблоновском",
+    "active": true,
+    "confirmed": false,
+    "location": "пос. Яблоновский",
+    "studyForms": [
+      "Заочная",
+      "Очно-заочная",
+      "Очная"
+    ],
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/61f2fb347bd0a706",
+      "/files/773625ac6618ae48"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 0,
+    "required": [],
+    "choice": [],
+    "profile": "Государственное и муниципальное управление в социальной сфере",
+    "duration": "",
+    "extra": "Условия и наличие набора уточняются по правилам приёма филиала. Минимальные баллы необходимо подтвердить в приёмной комиссии.",
+    "url": "https://mkgtu.ru/vikon/sveden/education/programs/gosudarstvennoe-i-municipalynoe-upravlenie-v-socialynoy-sfere-filial-38.03.04.html",
+    "source": "https://mkgtu.ru/postuplenie/priemnaya-kampaniya/bakalavriat-spetsialitet-magistratura/",
+    "curriculum": {
+      "sourceUrl": "https://mkgtu.ru/vikon/sveden/education/programs/gosudarstvennoe-i-municipalynoe-upravlenie-v-socialynoy-sfere-filial-38.03.04.html",
+      "documents": [
+        {
+          "id": "branch-384ebac27b51-plan-0",
+          "title": "ф УП 38.03.04 ГУ ЗФО 2026",
+          "year": 2026,
+          "form": "Заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/vis/f_UP_38.03.04_GU_ZFO_2026.pdf"
+        },
+        {
+          "id": "branch-384ebac27b51-plan-1",
+          "title": "ф УП 38.03.04 ГУ ОЗФО 2026",
+          "year": 2026,
+          "form": "Очно-заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/rii/f_UP_38.03.04_GU_OZFO_2026.pdf"
+        },
+        {
+          "id": "branch-384ebac27b51-plan-2",
+          "title": "ф УП 38.03.04 ГУ ОФО 2026",
+          "year": 2026,
+          "form": "Очная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/viq/f_UP_38.03.04_GU_OFO_2026.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "id": "branch-9c5e824d26e4",
+    "code": "08.03.01",
+    "name": "Строительство",
+    "level": "bak",
+    "faculty": "Филиал МГТУ в пос. Яблоновском",
+    "active": true,
+    "confirmed": false,
+    "location": "пос. Яблоновский",
+    "studyForms": [
+      "Заочная",
+      "Очно-заочная",
+      "Очная"
+    ],
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/61f2fb347bd0a706",
+      "/files/773625ac6618ae48"
+    ],
+    "budgetPlaces": 5,
+    "paidPlaces": 65,
+    "required": [],
+    "choice": [],
+    "profile": "Промышленное и гражданское строительство",
+    "duration": "",
+    "extra": "Условия и наличие набора уточняются по правилам приёма филиала. Минимальные баллы необходимо подтвердить в приёмной комиссии.",
+    "url": "https://mkgtu.ru/vikon/sveden/education/programs/promyshlennoe-i-graghdanskoe-stroitelystvo-filial-08.03.01.html",
+    "source": "https://mkgtu.ru/postuplenie/priemnaya-kampaniya/bakalavriat-spetsialitet-magistratura/",
+    "curriculum": {
+      "sourceUrl": "https://mkgtu.ru/vikon/sveden/education/programs/promyshlennoe-i-graghdanskoe-stroitelystvo-filial-08.03.01.html",
+      "documents": [
+        {
+          "id": "branch-9c5e824d26e4-plan-0",
+          "title": "ф УП 08.03.01 СТР пгс ЗФО 2026",
+          "year": 2026,
+          "form": "Заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/ziu/f_UP_08.03.01_STR_pgs_ZFO_2026.pdf"
+        },
+        {
+          "id": "branch-9c5e824d26e4-plan-1",
+          "title": "ф УП 08.03.01 СТР пгс ОЗФО 2026",
+          "year": 2026,
+          "form": "Очно-заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/aiw/f_UP_08.03.01_STR_pgs_OZFO_2026.pdf"
+        },
+        {
+          "id": "branch-9c5e824d26e4-plan-2",
+          "title": "ф УП 08.03.01 СТР пгс ОФО 2026",
+          "year": 2026,
+          "form": "Очная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/rir/f_UP_08.03.01_STR_pgs_OFO_2026.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "id": "branch-3af48a3d0111",
+    "code": "20.05.01",
+    "name": "Пожарная безопасность",
+    "level": "spec",
+    "faculty": "Филиал МГТУ в пос. Яблоновском",
+    "active": true,
+    "confirmed": false,
+    "location": "пос. Яблоновский",
+    "studyForms": [
+      "Заочная",
+      "Очно-заочная",
+      "Очная"
+    ],
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/61f2fb347bd0a706",
+      "/files/773625ac6618ae48"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 10,
+    "required": [],
+    "choice": [],
+    "profile": "Пожарная безопасность",
+    "duration": "",
+    "extra": "Условия и наличие набора уточняются по правилам приёма филиала. Минимальные баллы необходимо подтвердить в приёмной комиссии.",
+    "url": "https://mkgtu.ru/vikon/sveden/education/programs/pogharnaya-bezopasnosty-filial-20.05.01.html",
+    "source": "https://mkgtu.ru/postuplenie/priemnaya-kampaniya/bakalavriat-spetsialitet-magistratura/",
+    "curriculum": {
+      "sourceUrl": "https://mkgtu.ru/vikon/sveden/education/programs/pogharnaya-bezopasnosty-filial-20.05.01.html",
+      "documents": [
+        {
+          "id": "branch-3af48a3d0111-plan-0",
+          "title": "ф УП 20.05.01 ПБ ЗФО 2026",
+          "year": 2026,
+          "form": "Заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/eiv/f_UP_20.05.01_PB_ZFO_2026.pdf"
+        },
+        {
+          "id": "branch-3af48a3d0111-plan-1",
+          "title": "ф УП 20.05.01 ПБ ОЗФО 2026",
+          "year": 2026,
+          "form": "Очно-заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/rie/f_UP_20.05.01_PB_OZFO_2026.pdf"
+        },
+        {
+          "id": "branch-3af48a3d0111-plan-2",
+          "title": "ф УП 20.05.01 ПБ ОФО 2026",
+          "year": 2026,
+          "form": "Очная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/eip/f_UP_20.05.01_PB_OFO_2026.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "id": "branch-744944e00e04",
+    "code": "38.05.02",
+    "name": "Таможенное дело",
+    "level": "spec",
+    "faculty": "Филиал МГТУ в пос. Яблоновском",
+    "active": true,
+    "confirmed": false,
+    "location": "пос. Яблоновский",
+    "studyForms": [
+      "Заочная",
+      "Очно-заочная",
+      "Очная"
+    ],
+    "placesYear": 2026,
+    "placesNote": "Суммарно по формам обучения. Бюджетные места включают квоты.",
+    "placesSources": [
+      "/files/61f2fb347bd0a706",
+      "/files/773625ac6618ae48"
+    ],
+    "budgetPlaces": 0,
+    "paidPlaces": 15,
+    "required": [],
+    "choice": [],
+    "profile": "Товароведение и экспертиза в таможенном деле",
+    "duration": "",
+    "extra": "Условия и наличие набора уточняются по правилам приёма филиала. Минимальные баллы необходимо подтвердить в приёмной комиссии.",
+    "url": "https://mkgtu.ru/vikon/sveden/education/programs/tovarovedenie-i-ekspertiza-v-tamoghennom-dele-filial-38.05.02.html",
+    "source": "https://mkgtu.ru/postuplenie/priemnaya-kampaniya/bakalavriat-spetsialitet-magistratura/",
+    "curriculum": {
+      "sourceUrl": "https://mkgtu.ru/vikon/sveden/education/programs/tovarovedenie-i-ekspertiza-v-tamoghennom-dele-filial-38.05.02.html",
+      "documents": [
+        {
+          "id": "branch-744944e00e04-plan-0",
+          "title": "ф УП 38.05.02 ТД ЗФО 2026",
+          "year": 2026,
+          "form": "Заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/tru/f_UP_38.05.02_TD_ZFO_2026.pdf"
+        },
+        {
+          "id": "branch-744944e00e04-plan-1",
+          "title": "ф УП 38.05.02 ТД ОЗФО 2026",
+          "year": 2026,
+          "form": "Очно-заочная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/eil/f_UP_38.05.02_TD_OZFO_2026.pdf"
+        },
+        {
+          "id": "branch-744944e00e04-plan-2",
+          "title": "ф УП 38.05.02 ТД ОФО 2026",
+          "year": 2026,
+          "form": "Очная",
+          "url": "https://mkgtu.ru/vikon/sveden/files/vij/f_UP_38.05.02_TD_OFO_2026.pdf"
+        }
+      ]
+    }
+  }
+]
