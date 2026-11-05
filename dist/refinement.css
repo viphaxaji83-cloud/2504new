@@ -115,3 +115,5 @@
 .compare-toggle.selected:before{content:'';background-color:var(--direction-soft,#e6eef7);background-repeat:no-repeat;background-position:center;background-size:12px 12px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%230b2a4a' stroke-width='1.35' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m3.5 8.5 3 3 6-7'/%3E%3C/svg%3E")}
 
 .exam-grid>.exam-block:only-child{grid-column:1/-1}
+
+.exam-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.exam-columns>.admission-text{min-width:0;overflow-wrap:anywhere}.exam-columns>.admission-text:only-child{grid-column:1/-1}@media(max-width:600px){.exam-columns{grid-template-columns:1fr;gap:20px}}
