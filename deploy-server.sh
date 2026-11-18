@@ -1,5 +1,6 @@
 #!/bin/sh
 set -eu
+umask 077
 cd "$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 
 command -v docker >/dev/null 2>&1 || { echo 'Docker is not installed. Contact the server administrator.'; exit 1; }
@@ -38,7 +39,10 @@ if [ -n "$(docker compose ps --status running -q web)" ]; then
   if docker compose exec -T web node --version >/dev/null 2>&1; then
     backup_path="$(docker compose exec -T web node server/backup.mjs)"
     case "$backup_path" in /tmp/mgtu-backup-*.sqlite) ;; *) echo 'Unexpected backup path. Deployment stopped.'; exit 1 ;; esac
-    docker compose cp "web:$backup_path" "$backup_dir/site-$stamp.sqlite"
+    backup_tmp="$backup_dir/site-$stamp.sqlite.partial"
+    docker compose exec -T web cat "$backup_path" > "$backup_tmp"
+    test -s "$backup_tmp" || { echo 'Empty database backup. Deployment stopped.'; exit 1; }
+    mv "$backup_tmp" "$backup_dir/site-$stamp.sqlite"
     chmod 600 "$backup_dir/site-$stamp.sqlite"
     echo "Database backup: $backup_dir/site-$stamp.sqlite"
   elif docker compose exec -T web nginx -v >/dev/null 2>&1; then

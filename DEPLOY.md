@@ -60,7 +60,8 @@ docker compose exec web node server/create-admin.mjs admin
 ```sh
 docker compose exec web node server/backup.mjs
 # Команда напечатает путь в /tmp. Подставьте его вместо /tmp/ИМЯ.sqlite:
-docker compose cp web:/tmp/ИМЯ.sqlite ./site-backup.sqlite
+umask 077
+docker compose exec -T web cat /tmp/ИМЯ.sqlite > ./site-backup.sqlite
 ```
 
 Копия содержит данные доступа и контент: храните её отдельно от публичной папки dist и с ограниченным доступом. Для восстановления остановите web и восстановите SQLite в том же volume; не копируйте базу поверх работающей.
@@ -121,3 +122,5 @@ services:
 ```
 
 Затем docker compose up -d --build. Добавляйте только проверенный сертификат вашего удостоверяющего центра. Проверка HTTPS не отключается; без доверия к источнику обновление отобразит ошибку, сохранив имеющуюся копию. Резервная копия SQLite включает кэш приёма.
+
+Резервная копия из /tmp передаётся через docker compose exec -T и cat: Docker cp не поддерживает копирование из некоторых tmpfs/mounts. Передача идёт без TTY; двоичные байты SQLite сохраняются. Скрипт пишет файл .partial и переименовывает его только после успешного чтения непустого файла. При ошибке обновление останавливается до пересборки.
