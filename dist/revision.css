@@ -81,6 +81,19 @@
 .admission-links{display:flex;gap:18px;flex-wrap:wrap;font-size:11px}
 .admission-links a{text-decoration:underline;text-underline-offset:4px}
 .admission-compare{margin-top:0}
+.button.small.admission-source-button{
+  justify-content:center;
+  gap:8px;
+  padding-block:11px 9px;
+  border:1px solid transparent;
+  font-weight:500;
+  text-align:center;
+}
+.admission-source-button span{
+  flex:none;
+  font:400 15px/1 Arial,sans-serif;
+  transform:translateY(-2px);
+}
 @media(min-width:1550px){.hero{min-height:780px}.hero-art{height:560px;min-height:560px}.hero-art .photo-main{height:430px;top:15px}.hero-art .photo-mini{bottom:8px;top:auto}.hero-art .spark-one{top:auto;bottom:0}}
 @media(max-width:1100px){.discovery-grid{grid-template-columns:1fr 1fr;grid-template-rows:280px 210px}.discovery-people{grid-row:1}.discovery-practice{grid-column:1;grid-row:2}.discovery-questions{grid-column:2;grid-row:2;padding:24px;display:block}.discovery-questions p{display:none}.discovery-questions .button{margin-top:6px}.final-cta{gap:20px}.final-photos{height:360px}.final-photo img{height:140px}.final-photo-three{top:180px}.final-photo-three img{height:115px}}
 @media(max-width:760px){.hero{padding-bottom:44px;min-height:0}.hero-art{height:440px;min-height:440px;max-width:460px}.hero-art .photo-main{height:330px;top:10px}.hero-art .photo-mini{bottom:10px}.hero-art .art-coordinate{display:none}.discover{padding-top:60px;padding-bottom:60px}.discover-intro{display:block}.discover-intro h2{font-size:38px}.discover-intro>.button{margin:20px 0 0}.discovery-grid{gap:14px;grid-template-rows:270px 240px}.discovery-grid h3{font-size:22px}.discovery-photo>div{left:20px;bottom:20px;right:20px}.discovery-photo p{display:none}.discovery-choice{padding:22px}.discovery-choice p{font-size:12px}.discovery-choice .discovery-mark{font-size:38px;right:14px;top:8px}.discovery-button{padding:10px;font-size:10px}.discovery-questions{padding:21px}.discovery-questions .button{padding:10px 12px;font-size:10px}.discovery-grid article>span,.discovery-photo span,.discovery-questions span{font-size:8px}.final-cta{grid-template-columns:1fr;gap:28px;padding-top:55px;padding-bottom:58px}.final-copy h2{font-size:70px;margin-bottom:28px}.final-photos{justify-self:center;width:100%;max-width:440px;height:360px}.final-photo img{height:155px}.final-photo-three img{height:120px}.final-spark{right:6%;top:-14px;font-size:72px}.exam-grid{grid-template-columns:1fr}.exam-block{padding:20px}.admission-footer>.button{width:100%;justify-content:center}.admission-table td{padding:12px}.admission-heading{padding-right:17px}}
